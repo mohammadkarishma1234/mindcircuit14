@@ -5,7 +5,7 @@ pipeline {
         stage('CLONE SCM ') {
             steps {
                 echo 'Cloning code from Github'				
-				git branch: 'main', url: 'https://github.com/devopstraininghub/mindcircuit14.git'
+				git branch: 'main', url: 'https://github.com/mohammadkarishma1234/mindcircuit14.git'
             }
         }
 		
@@ -19,8 +19,8 @@ pipeline {
         stage('DEPLOY TOMCAT ') {
             steps {
                 echo 'Deploying artifact to tomcat webserver'
-				deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://3.82.110.202:8091/')], contextPath: 'MC-APP', war: '**/*.war'
-				
+				deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://ec2-54-224-157-228.compute-1.amazonaws.com:8091/')], contextPath: 'facebook', war: '**/*.war'
+                				
             }
         }		
 		
