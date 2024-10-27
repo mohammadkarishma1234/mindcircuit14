@@ -1,30 +1,1576 @@
 
 <!DOCTYPE html>
-<html lang="en" id="facebook" class="no_js">
-<head><meta charset="utf-8" /><meta name="referrer" content="origin-when-crossorigin" id="meta_referrer" /><script nonce="92pAazsi">function envFlush(a){function b(b){for(var c in a)b[c]=a[c]}window.requireLazy?window.requireLazy(["Env"],b):(window.Env=window.Env||{},b(window.Env))}envFlush({"useTrustedTypes":false,"isTrustedTypesReportOnly":false,"ajaxpipe_token":"AXik_NWuzneSJlGjmIo","stack_trace_limit":30,"timesliceBufferSize":5000,"show_invariant_decoder":false,"compat_iframe_token":"AUU9Lm6ieI6hWdATX8OjAyMc720","isCQuick":false,"brsid":"7430408381190585077"});</script><script nonce="92pAazsi">(function(a){function b(b){if(!window.openDatabase)return;b.I_AM_INCOGNITO_AND_I_REALLY_NEED_WEBSQL=function(a,b,c,d){return window.openDatabase(a,b,c,d)};window.openDatabase=function(){throw new Error()}}b(a)})(this);</script><style nonce="92pAazsi"></style><script nonce="92pAazsi">__DEV__=0;</script><noscript><meta http-equiv="refresh" content="0; URL=/?_fb_noscript=1" /></noscript><link rel="manifest" id="MANIFEST_LINK" href="/data/manifest/" crossorigin="use-credentials" /><title id="pageTitle">Facebook – log in or sign up</title><meta name="bingbot" content="noarchive" /><meta property="og:site_name" content="Facebook" /><meta property="og:url" content="https://www.facebook.com/" /><meta property="og:image" content="https://www.facebook.com/images/fb_icon_325x325.png" /><meta property="og:locale" content="en_GB" /><link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.facebook.com/" /><link rel="alternate" media="handheld" href="https://m.facebook.com/" /><meta name="description" content="Log in to Facebook to start sharing and connecting with your friends, family and people you know." /><script type="application/ld+json" nonce="92pAazsi">{"\u0040context":"http:\/\/schema.org","\u0040type":"WebSite","name":"Facebook","url":"https:\/\/en-gb.facebook.com\/"}</script><link rel="canonical" href="https://www.facebook.com/" /><link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yx/r/e9sqr8WnkCf.ico" /><link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v4/yc/l/0,cross/NjtGKjMrjf3.css" data-bootloader-hash="n+36Djy" crossorigin="anonymous" />
-<link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v4/yT/l/0,cross/fU4yroJyKn1.css" data-bootloader-hash="wXaVolg" crossorigin="anonymous" />
-<link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v4/yI/l/0,cross/qX9_0NUP7jn.css" data-bootloader-hash="wG3ElZl" crossorigin="anonymous" />
-<link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v4/yo/l/0,cross/PNGqFgfBpcD.css" data-bootloader-hash="xy2Pv+c" crossorigin="anonymous" />
-<link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v4/yn/l/0,cross/Gb-fGaKG89C.css" data-bootloader-hash="QxhE0QB" crossorigin="anonymous" />
-<script src="https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/p4ALoIvfokR.js" data-bootloader-hash="eFXu8DC" crossorigin="anonymous"></script>
-<script nonce="92pAazsi">requireLazy(["HasteSupportData"],function(m){m.handle({"clpData":{"6476":{"r":1000,"s":1},"1838142":{"r":1,"s":1},"4883":{"r":1,"s":1},"1814852":{"r":1},"1848815":{"r":10000,"s":1}},"gkxData":{"20935":{"result":false,"hash":null},"20940":{"result":false,"hash":null},"21043":{"result":false,"hash":null},"2199":{"result":false,"hash":null},"7742":{"result":false,"hash":null},"8068":{"result":false,"hash":null},"20936":{"result":false,"hash":null},"20948":{"result":true,"hash":null},"25572":{"result":true,"hash":null},"1221":{"result":false,"hash":null},"25571":{"result":false,"hash":null}},"justknobxData":{"2552":{"r":false},"3323":{"r":false},"2269":{"r":true}}})});requireLazy(["TimeSliceImpl","ServerJS"],function(TimeSlice,ServerJS){(new ServerJS()).handle({"define":[["cr:310",["RunWWW"],{"__rc":["RunWWW",null]},-1],["cr:1126",["TimeSliceImpl"],{"__rc":["TimeSliceImpl",null]},-1],["cr:3725",["clearTimeoutWWWOrMobile"],{"__rc":["clearTimeoutWWWOrMobile",null]},-1],["cr:4344",["setTimeoutWWWOrMobile"],{"__rc":["setTimeoutWWWOrMobile",null]},-1],["cr:6640",["PromiseImpl"],{"__rc":["PromiseImpl",null]},-1],["cr:8958",["FBJSON"],{"__rc":["FBJSON",null]},-1],["cr:1078",[],{"__rc":[null,null]},-1],["cr:1080",["unexpectedUseInComet"],{"__rc":["unexpectedUseInComet",null]},-1],["cr:2945",["PromiseMonitor"],{"__rc":["PromiseMonitor",null]},-1],["cr:6108",["CSS"],{"__rc":["CSS",null]},-1],["cr:7385",["clearIntervalWWW"],{"__rc":["clearIntervalWWW",null]},-1],["cr:7389",["setIntervalAcrossTransitionsWWW"],{"__rc":["setIntervalAcrossTransitionsWWW",null]},-1],["cr:7391",["setTimeoutAcrossTransitionsWWW"],{"__rc":["setTimeoutAcrossTransitionsWWW",null]},-1],["cr:8959",["DTSG"],{"__rc":["DTSG",null]},-1],["cr:8960",["DTSG_ASYNC"],{"__rc":["DTSG_ASYNC",null]},-1],["cr:696703",[],{"__rc":[null,null]},-1],["cr:708886",["EventProfilerImpl"],{"__rc":["EventProfilerImpl",null]},-1],["cr:135",["RunBlue"],{"__rc":["RunBlue",null]},-1],["cr:6669",["DataStore"],{"__rc":["DataStore",null]},-1],["ServerNonce",[],{"ServerNonce":"Tl_xBmLvn4SHyeGhSWSZr8"},141],["InitialCookieConsent",[],{"deferCookies":false,"initialConsent":[1,2],"noCookies":false,"shouldShowCookieBanner":false,"shouldWaitForDeferredDatrCookie":false,"optedInIntegrations":["adobe_marketo_rest_api","blings_io_video","chili_piper_api","cloudfront_cdn","giphy_media","google_ads_pixel_frame_legacy","google_ads_pixel_img_legacy","google_ads_pixel_legacy","google_ads_remarketing_tag","google_ads_services","google_analytics_4_tag","google_analytics_img","google_cached_img","google_double_click_loading","google_double_click_redirecting","google_double_click_uri_connect","google_double_click_uri_frame","google_double_click_uri_img","google_fonts","google_fonts_font","google_maps","google_paid_ads_frame","google_paid_ads_img","google_translate","google_universal_analytics_legacy","google_universal_analytics_legacy_img","google_universal_analytics_legacy_script","jio","linkedin_insight","linkedin_insight_img","mapbox_maps_api","medallia_digital_experience_analytics","microsoft_exchange","nytimes_oembed","reachtheworld_s3","soundcloud_oembed","spotify_oembed","spreaker_oembed","ted_oembed","tenor_api","tenor_images","tenor_media","tiktok_oembed","twitter_analytics_pixel","twitter_analytics_pixel_img","twitter_legacy_embed","vimeo_oembed","youtube_embed","youtube_oembed","advertiser_hosted_pixel","airbus_sat","amazon_media","apps_for_office","arkose_captcha","aspnet_cdn","autodesk_fusion","bing_maps","bing_widget","boku_wallet","bootstrap","box","cardinal_centinel_api","chromecast_extensions","cloudflare_cdnjs","cloudflare_datatables","cloudflare_relay","conversions_api_gateway","demandbase_api","digitalglobe_maps_api","dlocal","dropbox","esri_sat","facebook_sdk","fastly_relay","gmg_pulse_embed_iframe","google_ads_conversions_tag","google_drive","google_fonts_legacy","google_hosted_libraries","google_oauth_api","google_recaptcha","here_map_ext","hive_streaming_video","isptoolbox","jquery","js_delivr","kbank","mathjax","meta_pixel","microsoft_excel","microsoft_office_addin","microsoft_onedrive","microsoft_speech","microsoft_teams","mmi_tiles","open_street_map","paypal_billing_agreement","paypal_oauth_api","payu","plaid","platformized_adyen_checkout","plotly","pydata","recruitics","rstudio","salesforce_lighting","stripe","team_center","tripshot","trustly_direct_debit_ach","twilio_voice","unifier","unsplash_api","unsplash_image_loading","vega","yoti_api","youtube_oembed_api","google_apis","google_apis_scripts","google_img","google_tag","google_uri_frame","google_uri_script"],"hasGranularThirdPartyCookieConsent":true,"exemptedIntegrations":["advertiser_hosted_pixel","airbus_sat","amazon_media","apps_for_office","arkose_captcha","aspnet_cdn","autodesk_fusion","bing_maps","bing_widget","boku_wallet","bootstrap","box","cardinal_centinel_api","chromecast_extensions","cloudflare_cdnjs","cloudflare_datatables","cloudflare_relay","conversions_api_gateway","demandbase_api","digitalglobe_maps_api","dlocal","dropbox","esri_sat","facebook_sdk","fastly_relay","gmg_pulse_embed_iframe","google_ads_conversions_tag","google_drive","google_fonts_legacy","google_hosted_libraries","google_oauth_api","google_recaptcha","here_map_ext","hive_streaming_video","isptoolbox","jquery","js_delivr","kbank","mathjax","meta_pixel","microsoft_excel","microsoft_office_addin","microsoft_onedrive","microsoft_speech","microsoft_teams","mmi_tiles","open_street_map","paypal_billing_agreement","paypal_oauth_api","payu","plaid","platformized_adyen_checkout","plotly","pydata","recruitics","rstudio","salesforce_lighting","stripe","team_center","tripshot","trustly_direct_debit_ach","twilio_voice","unifier","unsplash_api","unsplash_image_loading","vega","yoti_api","youtube_oembed_api"]},4328],["CookieConsentIFrameConfig",[],{"consent_param":"FQAREhISFQAZ9XsCGiQuQEZISkxOUFJYXF5gYmRqbHR4eoIBhAGGAYgBlAGcAZ4BoAGkAaoBuAHOAd4B4AHiAeoB7AHuAfAB9AH+AYAChgKWApoCoAIEBgoMDhASFhgcHiAiJigqLDAyNjg6PKgCsgJCRGZucHZ8jgGQAZIBlgGYAZoBogGmAqgBrAGuAbABsgG0AboBvgHAAcIBxgHIAcoBzAHQAdQB2AHkAegB+AH6AfwBigKMAo4CkAKYAqICVFZygAGKAYwBGBB3d3cuZmFjZWJvb2suY29tAA==.ARb-u2VUi0sY1B-SYJ8DOLv3F17TUJ652Zi9cnAFW1zIEJel","allowlisted_iframes":["captcha-recaptcha","arkose-captcha"],"is_checkpointed":false},5540],["ServerTimeData",[],{"serverTime":1730026766116,"timeOfRequestStart":1730026766094.8,"timeOfResponseStart":1730026766094.8},5943],["URLFragmentPreludeConfig",[],{"hashtagRedirect":true,"fragBlacklist":["nonce","access_token","oauth_token","xs","checkpoint_data","code"]},137],["CookiePrivacySandboxConfig",[],{"is_affected_by_samesite_lax":false},7723],["CometPersistQueryParams",[],{"relative":{},"domain":{}},6231],["CookieDomain",[],{"domain":"facebook.com"},6421],["GetAsyncParamsExtraData",[],{"extra_data":{}},7511],["BootloaderConfig",[],{"deferBootloads":false,"jsRetries":[200,500],"jsRetryAbortNum":2,"jsRetryAbortTime":5,"silentDups":false,"timeout":60000,"tieredLoadingFromTier":100,"hypStep4":false,"phdOn":false,"btCutoffIndex":2029,"fastPathForAlreadyRequired":true,"earlyRequireLazy":false,"enableTimeoutLoggingForNonComet":false,"deferLongTailManifest":true,"lazySoT":false,"translationRetries":[200,500],"translationRetryAbortNum":3,"translationRetryAbortTime":50},329],["CSSLoaderConfig",[],{"timeout":5000,"loadEventSupported":true},619],["CookieCoreConfig",[],{"c_user":{"t":31536000,"s":"None"},"cppo":{"t":86400,"s":"None"},"dpr":{"t":604800,"s":"None"},"fbl_st":{"t":31536000,"s":"Strict"},"hckd":{"s":"None"},"i_user":{"t":31536000,"s":"None"},"locale":{"t":604800,"s":"None"},"m_ls":{"t":34560000,"s":"None"},"m_pixel_ratio":{"t":604800,"s":"None"},"noscript":{"s":"None"},"presence":{"t":2592000,"s":"None"},"sfau":{"s":"None"},"usida":{"s":"None"},"vpd":{"t":5184000,"s":"Lax"},"wd":{"t":604800,"s":"Lax"},"wl_cbv":{"t":7776000,"s":"None"},"x-referer":{"s":"None"},"x-src":{"t":1,"s":"None"}},2104],["CurrentUserInitialData",[],{"ACCOUNT_ID":"0","USER_ID":"0","NAME":"","SHORT_NAME":null,"IS_BUSINESS_PERSON_ACCOUNT":false,"HAS_SECONDARY_BUSINESS_PERSON":false,"IS_FACEBOOK_WORK_ACCOUNT":false,"IS_INSTAGRAM_BUSINESS_PERSON":false,"IS_MESSENGER_ONLY_USER":false,"IS_DEACTIVATED_ALLOWED_ON_MESSENGER":false,"IS_MESSENGER_CALL_GUEST_USER":false,"IS_WORK_MESSENGER_CALL_GUEST_USER":false,"IS_WORKROOMS_USER":false,"APP_ID":"256281040558","IS_BUSINESS_DOMAIN":false},270],["LSD",[],{"token":"AVqxsXiPGyo"},323],["SiteData",[],{"server_revision":1017706399,"client_revision":1017706399,"push_phase":"C3","pkg_cohort":"BP:DEFAULT","haste_session":"20023.BP:DEFAULT.2.0..0.0","pr":1,"manifest_base_uri":"https:\/\/static.xx.fbcdn.net","manifest_origin":null,"manifest_version_prefix":null,"be_one_ahead":false,"is_rtl":false,"is_experimental_tier":false,"is_jit_warmed_up":true,"hsi":"7430408381190585077","semr_host_bucket":"5","bl_hash_version":2,"comet_env":0,"wbloks_env":false,"ef_page":null,"compose_bootloads":false,"spin":4,"__spin_r":1017706399,"__spin_b":"trunk","__spin_t":1730026766,"vip":"2a03:2880:f137:83:face:b00c:0:25de"},317],["SprinkleConfig",[],{"param_name":"jazoest","version":2,"should_randomize":false},2111],["UserAgentData",[],{"browserArchitecture":"64","browserFullVersion":"130.0.0.0","browserMinorVersion":0,"browserName":"Chrome","browserVersion":130,"deviceName":"Unknown","engineName":"Blink","engineVersion":"130.0.0.0","platformArchitecture":"64","platformName":"Windows","platformVersion":"10","platformFullVersion":"10"},527],["PromiseUsePolyfillSetImmediateGK",[],{"www_always_use_polyfill_setimmediate":false},2190],["JSErrorLoggingConfig",[],{"appId":256281040558,"extra":[],"reportInterval":50,"sampleWeight":null,"sampleWeightKey":"__jssesw","projectBlocklist":[]},2776],["DataStoreConfig",[],{"expandoKey":"__FB_STORE","useExpando":true},2915],["CookieCoreLoggingConfig",[],{"maximumIgnorableStallMs":16.67,"sampleRate":9.7e-5,"sampleRateClassic":1.0e-10,"sampleRateFastStale":1.0e-8},3401],["ImmediateImplementationExperiments",[],{"prefer_message_channel":true},3419],["UriNeedRawQuerySVConfig",[],{"uris":["dms.netmng.com","doubleclick.net","r.msn.com","watchit.sky.com","graphite.instagram.com","www.kfc.co.th","learn.pantheon.io","www.landmarkshops.in","www.ncl.com","s0.wp.com","www.tatacliq.com","bs.serving-sys.com","kohls.com","lazada.co.th","xg4ken.com","technopark.ru","officedepot.com.mx","bestbuy.com.mx","booking.com","nibio.no","myworkdayjobs.com","united-united.com","gcc.gnu.org"]},3871],["WebConnectionClassServerGuess",[],{"connectionClass":"GOOD"},4705],["BootloaderEndpointConfig",[],{"debugNoBatching":false,"maxBatchSize":-1,"endpointURI":"https:\/\/www.facebook.com\/ajax\/bootloader-endpoint\/"},5094],["BigPipeExperiments",[],{"link_images_to_pagelets":false,"am_page_load_promise_timeout":false,"enable_bigpipe_plugins":false},907],["cr:7730",["getFbtResult"],{"__rc":["getFbtResult",null]},-1],["cr:8906",["goURIWWW"],{"__rc":["goURIWWW",null]},-1],["cr:925100",["RunBlue"],{"__rc":["RunBlue",null]},-1],["cr:7386",["clearTimeoutWWW"],{"__rc":["clearTimeoutWWW",null]},-1],["cr:7390",["setTimeoutWWW"],{"__rc":["setTimeoutWWW",null]},-1],["cr:1003267",["clearIntervalBlue"],{"__rc":["clearIntervalBlue",null]},-1],["cr:896462",["setIntervalAcrossTransitionsBlue"],{"__rc":["setIntervalAcrossTransitionsBlue",null]},-1],["cr:986633",["setTimeoutAcrossTransitionsBlue"],{"__rc":["setTimeoutAcrossTransitionsBlue",null]},-1],["cr:6799",["EventProfilerAdsSessionProvider"],{"__rc":["EventProfilerAdsSessionProvider",null]},-1],["IntlVariationHoldout",[],{"disable_variation":false},6533],["IntlNumberTypeProps",["IntlCLDRNumberType05"],{"module":{"__m":"IntlCLDRNumberType05"}},7027],["AdsManagerReadRegions",[],{"excluded_endpoints":["\/am_tabular"]},7950],["AsyncRequestConfig",[],{"retryOnNetworkError":"1","useFetchStreamAjaxPipeTransport":true},328],["DTSGInitialData",[],{},258],["IntlPhonologicalRules",[],{"meta":{"\/_B\/":"([.,!?\\s]|^)","\/_E\/":"([.,!?\\s]|$)"},"patterns":{"\/\u0001(.*)('|&#039;)s\u0001(?:'|&#039;)s(.*)\/":"\u0001$1$2s\u0001$3","\/_\u0001([^\u0001]*)\u0001\/":"javascript"}},1496],["IntlViewerContext",[],{"GENDER":3,"regionalLocale":null},772],["NumberFormatConfig",[],{"decimalSeparator":".","numberDelimiter":",","minDigitsForThousandsSeparator":4,"standardDecimalPatternInfo":{"primaryGroupSize":3,"secondaryGroupSize":3},"numberingSystemData":null},54],["SessionNameConfig",[],{"seed":"1Lpa"},757],["ZeroCategoryHeader",[],{},1127],["ZeroRewriteRules",[],{"rewrite_rules":{},"whitelist":{"\/hr\/r":1,"\/hr\/p":1,"\/zero\/unsupported_browser\/":1,"\/zero\/policy\/optin":1,"\/zero\/optin\/write\/":1,"\/zero\/optin\/legal\/":1,"\/zero\/optin\/free\/":1,"\/about\/privacy\/":1,"\/about\/privacy\/update\/":1,"\/privacy\/explanation\/":1,"\/zero\/toggle\/welcome\/":1,"\/zero\/toggle\/nux\/":1,"\/zero\/toggle\/settings\/":1,"\/fup\/interstitial\/":1,"\/work\/landing":1,"\/work\/login\/":1,"\/work\/email\/":1,"\/ai.php":1,"\/js_dialog_resources\/dialog_descriptions_android.json":0,"\/connect\/jsdialog\/MPlatformAppInvitesJSDialog\/":0,"\/connect\/jsdialog\/MPlatformOAuthShimJSDialog\/":0,"\/connect\/jsdialog\/MPlatformLikeJSDialog\/":0,"\/qp\/interstitial\/":1,"\/qp\/action\/redirect\/":1,"\/qp\/action\/close\/":1,"\/zero\/support\/ineligible\/":1,"\/zero_balance_redirect\/":1,"\/zero_balance_redirect":1,"\/zero_balance_redirect\/l\/":1,"\/l.php":1,"\/lsr.php":1,"\/ajax\/dtsg\/":1,"\/checkpoint\/block\/":1,"\/exitdsite":1,"\/zero\/balance\/pixel\/":1,"\/zero\/balance\/":1,"\/zero\/balance\/carrier_landing\/":1,"\/zero\/flex\/logging\/":1,"\/tr":1,"\/tr\/":1,"\/sem_campaigns\/sem_pixel_test\/":1,"\/bookmarks\/flyout\/body\/":1,"\/zero\/subno\/":1,"\/confirmemail.php":1,"\/policies\/":1,"\/mobile\/internetdotorg\/classifier\/":1,"\/zero\/dogfooding":1,"\/xti.php":1,"\/zero\/fblite\/config\/":1,"\/hr\/zsh\/wc\/":1,"\/ajax\/bootloader-endpoint\/":1,"\/mobile\/zero\/carrier_page\/":1,"\/mobile\/zero\/carrier_page\/education_page\/":1,"\/mobile\/zero\/carrier_page\/feature_switch\/":1,"\/mobile\/zero\/carrier_page\/settings_page\/":1,"\/aloha_check_build":1,"\/upsell\/zbd\/softnudge\/":1,"\/mobile\/zero\/af_transition\/":1,"\/mobile\/zero\/af_transition\/action\/":1,"\/mobile\/zero\/freemium\/":1,"\/mobile\/zero\/freemium\/redirect\/":1,"\/mobile\/zero\/freemium\/zero_fup\/":1,"\/privacy\/policy\/":1,"\/privacy\/center\/":1,"\/data\/manifest\/":1,"\/cmon":1,"\/cmon\/":1,"\/4oh4.php":1,"\/autologin.php":1,"\/birthday_help.php":1,"\/checkpoint\/":1,"\/contact-importer\/":1,"\/cr.php":1,"\/legal\/terms\/":1,"\/login.php":1,"\/login\/":1,"\/mobile\/account\/":1,"\/n\/":1,"\/remote_test_device\/":1,"\/upsell\/buy\/":1,"\/upsell\/buyconfirm\/":1,"\/upsell\/buyresult\/":1,"\/upsell\/promos\/":1,"\/upsell\/continue\/":1,"\/upsell\/h\/promos\/":1,"\/upsell\/loan\/learnmore\/":1,"\/upsell\/purchase\/":1,"\/upsell\/promos\/upgrade\/":1,"\/upsell\/buy_redirect\/":1,"\/upsell\/loan\/buyconfirm\/":1,"\/upsell\/loan\/buy\/":1,"\/upsell\/sms\/":1,"\/wap\/a\/channel\/reconnect.php":1,"\/wap\/a\/nux\/wizard\/nav.php":1,"\/wap\/appreg.php":1,"\/wap\/birthday_help.php":1,"\/wap\/c.php":1,"\/wap\/confirmemail.php":1,"\/wap\/cr.php":1,"\/wap\/login.php":1,"\/wap\/r.php":1,"\/zero\/datapolicy":1,"\/a\/timezone.php":1,"\/a\/bz":1,"\/bz\/reliability":1,"\/r.php":1,"\/mr\/":1,"\/reg\/":1,"\/registration\/log\/":1,"\/terms\/":1,"\/f123\/":1,"\/expert\/":1,"\/experts\/":1,"\/terms\/index.php":1,"\/terms.php":1,"\/srr\/":1,"\/msite\/redirect\/":1,"\/fbs\/pixel\/":1,"\/contactpoint\/preconfirmation\/":1,"\/contactpoint\/cliff\/":1,"\/contactpoint\/confirm\/submit\/":1,"\/contactpoint\/confirmed\/":1,"\/contactpoint\/login\/":1,"\/preconfirmation\/contactpoint_change\/":1,"\/help\/contact\/":1,"\/survey\/":1,"\/upsell\/loyaltytopup\/accept\/":1,"\/settings\/":1,"\/lite\/":1,"\/zero_status_update\/":1,"\/operator_store\/":1,"\/upsell\/":1,"\/wifiauth\/login\/":1}},1478],["DTSGInitData",[],{"token":"","async_get_token":""},3515],["WebDriverConfig",[],{"isTestRunning":false,"isJestE2ETestRun":false,"isXRequestConfigEnabled":false,"auxiliaryServiceInfo":{},"testPath":null,"originHost":null},5332],["EventConfig",[],{"sampling":{"bandwidth":0,"play":0,"playing":0,"progress":0,"pause":0,"ended":0,"seeked":0,"seeking":0,"waiting":0,"loadedmetadata":0,"canplay":0,"selectionchange":0,"change":0,"timeupdate":0,"adaptation":0,"focus":0,"blur":0,"load":0,"error":0,"message":0,"abort":0,"storage":0,"scroll":200000,"mousemove":20000,"mouseover":10000,"mouseout":10000,"mousewheel":1,"MSPointerMove":10000,"keydown":0.1,"click":0.02,"mouseup":0.02,"__100ms":0.001,"__default":5000,"__min":100,"__interactionDefault":200,"__eventDefault":100000},"page_sampling_boost":1,"interaction_regexes":{},"interaction_boost":{},"event_types":{},"manual_instrumentation":false,"profile_eager_execution":false,"disable_heuristic":true,"disable_event_profiler":false},1726],["cr:8828",[],{"__rc":[null,null]},-1],["cr:1094907",[],{"__rc":[null,null]},-1],["cr:1183579",["InlineFbtResultImpl"],{"__rc":["InlineFbtResultImpl",null]},-1],["cr:806696",["clearTimeoutBlue"],{"__rc":["clearTimeoutBlue",null]},-1],["cr:807042",["setTimeoutBlue"],{"__rc":["setTimeoutBlue",null]},-1],["FbtResultGK",[],{"shouldReturnFbtResult":true,"inlineMode":"NO_INLINE"},876],["AdsInterfacesSessionConfig",[],{},2393],["FbtQTOverrides",[],{"overrides":{}},551],["AnalyticsCoreData",[],{"device_id":"$^|Acbr_jCER6_vJk5JSqrh1rzV4ONCg3k6cVGDxhijvIIU09wvOJ7YVg521fRjrBAjjzP3TajgFytfxb3RY_Mk_FKFJzgBHVw4m-QJGPhqCwXHWfQwIFQHjtx25tTJoWSG8H5ulz1wcus2id9aelAfbeWCCYCEEgEeUQ|fd.Acbrs0zeFKVErDe8Ser-y3Mc0gMxB7GpfuvqFPRXrA_8FwawVcVfWzVoj2BUaiGSxA3kgMgEanpIPv2AV3kYmin5","app_id":"256281040558","enable_bladerunner":false,"enable_ack":true,"push_phase":"C3","enable_observer":false,"enable_cmcd_observer":false,"enable_dataloss_timer":false,"enable_fallback_for_br":true,"queue_activation_experiment":false,"max_delay_br_queue":60000,"max_delay_br_queue_immediate":3,"max_delay_br_init_not_complete":3000,"consents":{},"app_universe":1,"br_stateful_migration_on":true,"enable_non_fb_br_stateless_by_default":false,"use_falco_as_mutex_key":false,"is_intern":false,"enable_session_id_bug_fix":true},5237]],"require":[["markJSEnabled"],["lowerDomain"],["URLFragmentPrelude"],["Primer"],["BigPipe"],["Bootloader"],["TimeSlice"],["AsyncRequest"],["FbtLogging"],["IntlQtEventFalcoEvent"],["RequireDeferredReference","unblock",[],[["AsyncRequest","FbtLogging","IntlQtEventFalcoEvent"],"sd"]],["RequireDeferredReference","unblock",[],[["AsyncRequest","FbtLogging","IntlQtEventFalcoEvent"],"css"]]]});});</script></head><body class="fbIndex UIPage_LoggedOut _-kb _605a b_c3pyn-ahh chrome webkit win x1 Locale_en_GB" dir="ltr"><script type="text/javascript" nonce="92pAazsi">requireLazy(["bootstrapWebSession"],function(j){j(1730026766)})</script><div class="_li" id="u_0_1_Ws"><div id="globalContainer" class="uiContextualLayerParent"><div class="fb_content clearfix " id="content" role="main"><div><div class="_95k9 _8esf _8f3m _8ilg _8icx _95kc _95kb"><div class="_5aj7 _m--"><div class="_4bl9 _ihf"><div class="_8ice"><img class="fb_logo _8ilh img" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook" /></div><div class="_ihd _6s">Recent logins</div><div class="_8e4l mbl _6o _6s _mf">Click your picture or add an account.</div><div class="_45ks"><div class="removableItem _95l5 _63fz"><div class="uiContextualLayerParent _csi" data-userid="100064107811962" id="u_0_2_M8"><div><a href="/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzMwMDI2NzY2LCJjYWxsc2l0ZV9pZCI6MzQzNjE1NzkwMjAxNjQ0fQ%3D%3D&amp;cuid=AYiTf43qzAeWYqNG0YpMpo7JFVerwxSz3H5YkuricMfKZgYT0EVRXcwrZt8NkSc7SQNfgvoygIjD0FMBoazl4PnCccYxi05Fd2DxNVxWpX9ktc9QbvLHHlpITZXjoS2Ah0cUAYIk1KwBbybVwVS-Nr88&amp;next" title="Mohammad Karishma" class="_1gbd" id="u_0_3_Kb"><img class="_s0 _4ooo _1x2_ _1ve7 _1gax img" src="https://scontent.fvga2-4.fna.fbcdn.net/v/t39.30808-1/276257985_348907187256206_3596459484510255940_n.jpg?stp=dst-jpg_p160x160&amp;_nc_cat=109&amp;ccb=1-7&amp;_nc_sid=6738e8&amp;_nc_ohc=UXPPqPWW5K0Q7kNvgHafGtg&amp;_nc_zt=24&amp;_nc_ht=scontent.fvga2-4.fna&amp;_nc_gid=AkU9ENH5nLfVlxuP7lSr-Pl&amp;oh=00_AYBgeFf6XujF8PtOnZpSpS8lAJwA5gkW0SmYFsaYJMgOdg&amp;oe=6723D5C7" alt="" aria-label="Mohammad Karishma" role="img" style="width:160px;height:160px" /><div class="_1gaz _c24 _50f6">Mohammad</div></a><a role="button" class="_42ft _2d4g _t7b" ajaxify="/login/device-based/async/remove/?cuid=AYjGhA7a5BSZGNJb_pMaLrdpXyt8I6g9chRjqqan98VSZaIDer8MEQ3ohXq-S7iAfEkZT1PPCPs1D8GNGwYC8wHofCd0OLVFlFhDf3KtxCYg8zWTz8ttCgZstlUyobPweRIgXkrvh8qZb604WbUY55C-&amp;flow=www_dbl_selector_remove" href="#" rel="async-post" data-hover="tooltip" data-tooltip-content="Remove account from this page"></a><span class="_51lp hidden_elem _1gb4" title="0 new notifications">0</span></div></div></div><div class="_63fz _95l5"><div class="_csi _95l4" id="u_0_4_wr"><a class="_1gbd _1gbe" href="/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzMwMDI2NzY2LCJjYWxsc2l0ZV9pZCI6MTMzMjk3MjM4NzAzNDMzN30%3D&amp;next" id="u_0_5_od"><div class="_1gax"><i class="img sp_vxiiSmFDFzJ sx_310f7b"></i></div><div class="_1gaz _1ga- _50f6">Add Account</div></a></div></div></div></div><div class="_4bl7 _9ji4"><div class="_8iep _8icy _9ahz _9ah-"><div class="_6luv _52jv"><form class="_9vtf" data-testid="royal_login_form" action="/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzMwMDI2NzY2LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&amp;next" method="post" id="u_0_6_Bp"><input type="hidden" name="jazoest" value="21075" autocomplete="off" /><input type="hidden" name="lsd" value="AVqxsXiPGyo" autocomplete="off" /><div><div class="_6lux"><input type="text" class="inputtext _55r1 _6luy" name="email" id="email" data-testid="royal_email" placeholder="Email address or phone number" autofocus="1" aria-label="Email address or phone number" /></div><div class="_6lux"><div class="_6luy _55r1 _1kbt" id="passContainer"><input type="password" class="inputtext _55r1 _6luy _9npi" name="pass" id="pass" data-testid="royal_pass" placeholder="Password" aria-label="Password" /><div class="_9ls7" id="u_0_7_Sf"><a href="#" role="button"><div class="_9lsa"><div class="_9lsb" id="u_0_8_VC"></div></div></a></div></div></div></div><input type="hidden" autocomplete="off" name="login_source" value="comet_headerless_login" /><input type="hidden" autocomplete="off" name="next" value="" /><div class="_6ltg"><button value="1" class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy" name="login" data-testid="royal_login_button" type="submit" id="u_0_9_ex">Log in</button></div><div class="_6ltj"><a href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzMwMDI2NzY2LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&amp;ars=facebook_login&amp;next">Forgotten password?</a></div><div class="_8icz"></div><div class="_6ltg"><a role="button" class="_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy" href="/r.php" ajaxify="" id="u_0_0_3y" data-testid="open-registration-form-button">Create new account</a></div></form></div><div id="reg_pages_msg" class="_58mk"><a href="/pages/create/?ref_type=registration_form" class="_8esh">Create a Page</a> for a celebrity, brand or business.</div></div></div></div></div></div></div><div class=""><div class="_95ke _8opy"><div id="pageFooter" data-referrer="page_footer" data-testid="page_footer"><ul class="uiList localeSelectorList _2pid _509- _4ki _6-h _6-j _6-i" data-nocookies="1"><li>English (UK)</li><li><a class="_sv4" dir="ltr" href="https://www.facebook.com/" title="Telugu" id="u_0_a_qp">తెలుగు</a></li><li><a class="_sv4" dir="rtl" href="https://te-in.facebook.com/" title="Urdu" id="u_0_b_pH">اردو</a></li><li><a class="_sv4" dir="ltr" href="https://ur-pk.facebook.com/" title="Hindi" id="u_0_c_Av">हिन्दी</a></li><li><a class="_sv4" dir="ltr" href="https://hi-in.facebook.com/" title="Tamil" id="u_0_d_1h">தமிழ்</a></li><li><a class="_sv4" dir="ltr" href="https://ta-in.facebook.com/" title="Oriya" id="u_0_e_v/">ଓଡ଼ିଆ</a></li><li><a class="_sv4" dir="ltr" href="https://or-in.facebook.com/" title="Kannada" id="u_0_f_Yf">ಕನ್ನಡ</a></li><li><a class="_sv4" dir="ltr" href="https://kn-in.facebook.com/" title="Malayalam" id="u_0_g_pp">മലയാളം</a></li><li><a class="_sv4" dir="ltr" href="https://ml-in.facebook.com/" title="Spanish" id="u_0_h_CT">Español</a></li><li><a class="_sv4" dir="ltr" href="https://es-la.facebook.com/" title="Portuguese (Brazil)" id="u_0_i_b3">Português (Brasil)</a></li><li><a class="_sv4" dir="ltr" href="https://pt-br.facebook.com/" title="French (France)" id="u_0_j_r8">Français (France)</a></li><li><a role="button" class="_42ft _4jy0 _517i _517h _51sy" rel="dialog" ajaxify="/settings/language/language/?uri=https%3A%2F%2Ffr-fr.facebook.com%2F&amp;source=www_list_selector_more" href="#" title="Show more languages"><i class="img sp_YbiIuPczOY_ sx_089752"></i></a></li></ul><div id="contentCurve"></div><div id="pageFooterChildren" role="contentinfo" aria-label="Facebook site links"><ul class="uiList pageFooterLinkList _509- _4ki _703 _6-i"><li><a href="/reg/" title="Sign up for Facebook">Sign Up</a></li><li><a href="/login/" title="Log in to Facebook">Log in</a></li><li><a href="https://messenger.com/" title="Take a look at Messenger.">Messenger</a></li><li><a href="/lite/" title="Facebook Lite for Android.">Facebook Lite</a></li><li><a href="https://www.facebook.com/watch/" title="Browse in Video">Video</a></li><li><a href="/places/" title="Take a look at popular places on Facebook.">Places</a></li><li><a href="/games/" title="Check out Facebook games.">Games</a></li><li><a href="/marketplace/" title="Buy and sell on Facebook Marketplace.">Marketplace</a></li><li><a href="https://about.meta.com/technologies/meta-pay" title="Learn more about Meta Pay" target="_blank">Meta Pay</a></li><li><a href="https://www.meta.com/" title="Discover Meta" target="_blank">Meta Store</a></li><li><a href="https://www.meta.com/quest/" title="Learn more about Meta Quest" target="_blank">Meta Quest</a></li><li><a href="https://www.meta.com/smart-glasses/" title="Learn more about Ray-Ban Meta" target="_blank">Ray-Ban Meta</a></li><li><a href="https://www.meta.ai/" title="Meta AI">Meta AI</a></li><li><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&amp;h=AT2J3V4USPrINmWsg0Ai-_CFAm5wwgqH8oVIPTNeZWymAaF6QOQpfm2VHMH37sgNFQa-RuyTMAQsb4NoujCyQ8m53JECxq5N5qESQCqWjaT1r2YltLgfTfD5aetRbks30jx5zwEK39fYXUplt1sFQIMc1lg7ER41xoAOiA" title="Take a look at Instagram" target="_blank" rel="noreferrer nofollow" data-lynx-mode="asynclazy">Instagram</a></li><li><a href="https://www.threads.net/" title="Check out Threads">Threads</a></li><li><a href="/fundraisers/" title="Donate to worthy causes.">Fundraisers</a></li><li><a href="/biz/directory/" title="Browse our Facebook Services directory.">Services</a></li><li><a href="/votinginformationcenter/?entry_point=c2l0ZQ%3D%3D" title="See the Voting Information Centre">Voting Information Centre</a></li><li><a href="/privacy/policy/?entry_point=facebook_page_footer" title="Learn how we collect, use and share information to support Facebook.">Privacy Policy</a></li><li><a href="/privacy/center/?entry_point=facebook_page_footer" title="Learn how to manage and control your privacy on Facebook.">Privacy Centre</a></li><li><a href="/groups/discover/" title="Explore our groups.">Groups</a></li><li><a href="https://about.meta.com/" accesskey="8" title="Read our blog, discover the resource centre and find job opportunities.">About</a></li><li><a href="/ad_campaign/landing.php?placement=pflo&amp;campaign_id=402047449186&amp;nav_source=unknown&amp;extra_1=auto" title="Advertise on Facebook">Create ad</a></li><li><a href="/pages/create/?ref_type=site_footer" title="Create a Page">Create Page</a></li><li><a href="https://developers.facebook.com/?ref=pf" title="Develop on our platform.">Developers</a></li><li><a href="/careers/?ref=pf" title="Make your next career move to our brilliant company.">Careers</a></li><li><a href="/policies/cookies/" title="Learn about cookies and Facebook." data-nocookies="1">Cookies</a></li><li><a class="_41ug" data-nocookies="1" href="https://www.facebook.com/help/568137493302217" title="Learn about Ad Choices.">AdChoices<i class="img sp_YbiIuPczOY_ sx_b2cf63"></i></a></li><li><a data-nocookies="1" href="/policies?ref=pf" accesskey="9" title="Review our terms and policies.">Terms</a></li><li><a href="/help/?ref=pf" accesskey="0" title="Visit our Help Centre.">Help</a></li><li><a href="help/637205020878504" title="Visit our contact uploading and non-users notice.">Contact uploading and non-users</a></li><li><a accesskey="6" class="accessible_elem" href="/settings" title="View and edit your Facebook settings.">Settings</a></li><li><a accesskey="7" class="accessible_elem" href="/allactivity?privacy_source=activity_log_top_menu" title="View your activity log">Activity log</a></li></ul></div><div class="mvl copyright"><div><span> Meta © 2024</span></div></div></div></div></div></div><div></div><span><img src="https://facebook.com/security/hsts-pixel.gif" width="0" height="0" style="display:none" /></span></div><div style="display:none"></div>
-<script nonce="92pAazsi">requireLazy(["HasteSupportData"],function(m){m.handle({"bxData":{"875231":{"uri":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/yT\/r\/aGT3gskzWBf.ico"}},"clpData":{"1743095":{"r":1,"s":1},"1744178":{"r":1,"s":1}},"gkxData":{"21049":{"result":false,"hash":null},"1624":{"result":false,"hash":null},"2160":{"result":false,"hash":null},"5679":{"result":false,"hash":null},"7541":{"result":false,"hash":null},"20836":{"result":false,"hash":null},"21050":{"result":false,"hash":null},"21051":{"result":false,"hash":null},"21052":{"result":false,"hash":null},"21053":{"result":false,"hash":null},"21054":{"result":false,"hash":null},"21055":{"result":false,"hash":null},"21056":{"result":false,"hash":null},"21057":{"result":false,"hash":null},"21058":{"result":false,"hash":null},"21116":{"result":false,"hash":null},"3485":{"result":false,"hash":null},"5918":{"result":false,"hash":null},"5971":{"result":false,"hash":null},"7686":{"result":false,"hash":null},"7687":{"result":false,"hash":null},"21075":{"result":false,"hash":null},"21076":{"result":true,"hash":null},"25574":{"result":true,"hash":null},"25981":{"result":false,"hash":null},"25983":{"result":false,"hash":null},"3867":{"result":true,"hash":null},"4341":{"result":false,"hash":null},"6323":{"result":false,"hash":null},"7607":{"result":true,"hash":null},"7656":{"result":false,"hash":null},"9861":{"result":false,"hash":null},"21062":{"result":false,"hash":null},"21063":{"result":false,"hash":null},"21069":{"result":false,"hash":null},"21071":{"result":false,"hash":null},"21072":{"result":false,"hash":null},"33056":{"result":false,"hash":null},"21034":{"result":false,"hash":null}},"qexData":{"362":{"r":null},"1028":{"r":null},"104":{"r":null},"128":{"r":null},"344":{"r":null},"388":{"r":null},"526":{"r":null},"538":{"r":null},"543":{"r":null}},"qplData":{"2444":{"r":100}},"justknobxData":{"1806":{"r":true},"2819":{"r":true},"2233":{"r":false}}})});requireLazy(["Bootloader"],function(m){m.handlePayload({"consistency":{"rev":1017706399},"rsrcMap":{"\/JZR4F\/":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yq\/r\/szSrDf3yAfN.js"},"Af5msXa":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ij9m4\/yC\/l\/en_GB\/-7SoqkOoiBI.js"},"9NiATAn":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yv\/r\/yRuFCzueB7p.js"},"+KjJUiq":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yy\/r\/vflPqbCGAJj.js"},"kbYk82\/":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yS\/r\/5fX-Po9j9H3.js"},"QbnjCmb":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yZ\/r\/R8ZTLxqI2uK.js"},"Oj0mThQ":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yR\/r\/zyFZN9-2ZLH.js"},"0Ta7b1B":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/ya\/r\/p9cZsB-TbNv.js"},"1Jkc8xt":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iSC-4\/yY\/l\/en_GB\/VE89l9p3qJY.js"},"p70T5CD":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3imlR4\/y7\/l\/en_GB\/OdRoWSPknPK.js"},"drZQBvZ":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yV\/r\/kIG4hEfCaJD.js"},"2tA1inM":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iLl54\/yq\/l\/en_GB\/sRcgozX5fRM.js"},"GAXC9eR":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iCwx4\/yl\/l\/en_GB\/PM38zdXFtUZ.js"},"Ftl2VZm":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yK\/r\/lNInKxOqejp.js"},"n9nzybz":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yS\/r\/GYOifFEyq9Y.js"},"ZQJBl8g":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yQ\/r\/GhZEvSLVF3e.js"},"TQd9YNC":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yy\/r\/87GSDM0JjOe.js"},"Wp66DuT":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yl\/r\/ywrhmAOvwK2.js"},"3Dawd2q":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i_Ou4\/yC\/l\/en_GB\/ylyTmy7Tpht.js"},"0n72zgh":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iDsb4\/yF\/l\/en_GB\/aSn4g_62vOz.js"},"+2mYsBo":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yd\/r\/ACVCSlW0ASp.js"},"pcEMj2W":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iK7-4\/yZ\/l\/en_GB\/Up2AENaK7C4.js"},"p0S2cNh":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y9\/r\/YwyE45LTAN1.js"},"IDlYchm":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yp\/r\/Q6fDBERCKuU.js"},"i6GwLyG":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v4\/yq\/l\/0,cross\/9jdJqbmpqpG.css"},"IC826Dq":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y8\/r\/4XrK1KEY_8V.js"},"qd\/xc5P":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yl\/r\/PuvUCC3dZ8K.js"},"i9rcSG0":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3isrE4\/ya\/l\/en_GB\/n8LsYJnpshG.js"},"46ldM\/K":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v4\/yJ\/l\/0,cross\/VYVCUiCQBQO.css"},"bi6Pwin":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yy\/r\/C30J8i3mzTa.js"},"dI6SdW4":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i-Dv4\/yA\/l\/en_GB\/nJZGvuM4lyM.js"},"edMqZ7Y":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i6ht4\/yy\/l\/en_GB\/zWjjIQv1IK0.js"},"zqVCkTS":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iz2v4\/yC\/l\/en_GB\/D0lnrvyphjZ.js"},"j47OODL":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yK\/r\/ZB1Pe-tAQ-r.js"},"o2vDwxa":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yK\/r\/izrXGN_8Kvy.js"},"wx5M0\/N":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yh\/r\/2ypgyhvetEV.js"},"\/Ns8RBM":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yS\/r\/tZOq-l13ojS.js"},"JouLeRi":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yz\/r\/UDFCsXtDquD.js"},"aIMpLwa":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i0XQ4\/yf\/l\/en_GB\/fGqv9bBjPJ5.js"},"INtuorP":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v4\/yy\/l\/0,cross\/lMkk3xkhu_7.css"},"7iumOzC":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iPVL4\/yC\/l\/en_GB\/-Mxw_2kWX_e.js"},"FAqiz1n":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y8\/r\/Jh6DW8-Cnoy.js"},"e+XQ0qk":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iPiP4\/y-\/l\/en_GB\/O2DVVB1-Z9T.js"},"8162dZj":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yJ\/r\/F98qEsw_KKg.js"},"tU6E5Hz":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v4\/yz\/l\/0,cross\/ZNc-ufK5NhR.css"},"7VTNsO0":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iYwN4\/y3\/l\/en_GB\/pdYkLwYl6BI.js"},"CpAhVZZ":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i4724\/y9\/l\/en_GB\/190Rw-ccUKZ.js"},"paWo8RI":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iCdY4\/yf\/l\/en_GB\/jXEXkEqRNOU.js"},"u7SRlPN":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y8\/r\/rOBi76Wkj0C.js"},"NlTkPnn":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v4\/yZ\/l\/0,cross\/louYjHucJ6b.css"},"HDEirJw":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yY\/r\/dezcQqZYYZs.js"},"ukQqm8V":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ikpZ4\/yy\/l\/en_GB\/hSKee3uN1Nm.js"},"WxJBq+9":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y7\/r\/bJ-Wl6GxdrD.js"},"jGcZiJF":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v4\/yg\/l\/0,cross\/8HWByezTc5C.css"},"zJGop3b":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iehM4\/yp\/l\/en_GB\/uXPCtnd2FUw.js"},"v96UihS":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iYoV4\/yE\/l\/en_GB\/32N2HL8KL3h.js"},"YP05viN":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ifTM4\/yo\/l\/en_GB\/MfKzoN-tlqG.js"},"sJhkEUj":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yo\/r\/G46avKyqtTU.js"},"3QBOKTC":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yH\/r\/AL5LllrA1f0.js"},"N1PKj3Q":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yp\/r\/qIYj83LxhpD.js"},"to6PWo8":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iAiy4\/yb\/l\/en_GB\/AgaS04PRgWt.js"},"b9sATVO":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yt\/r\/oXAkgPAYF7S.js"},"hmc0Ch2":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y3\/r\/n-ZwnDSTvqK.js"},"fQwhlTT":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yQ\/r\/VftRnkD_b4D.js"},"aHchuMx":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iLl54\/yv\/l\/en_GB\/rGKlY9jo9y2.js"},"ipCbG2E":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v4\/yg\/l\/0,cross\/wCALVPdU1b7.css"},"5rKFgd\/":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v4\/yK\/l\/0,cross\/oKEEnHmJ1w5.css"},"56u9XWu":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yQ\/r\/bNSOtexdMYn.js"},"yyJPDys":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v4\/yl\/l\/0,cross\/CFFbq5q-lZU.css"},"G2iy9Ox":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y3\/r\/NHTmQ4aEe1Y.js"},"3OerUPY":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yg\/r\/NP6AeRGPcON.js"},"b\/rYFtF":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yB\/r\/hGd1ihAEoHH.js"},"yMgn4BF":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yA\/r\/-u-KeKSHGqH.js"},"SFW2eQP":{"type":"css","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v4\/ya\/l\/0,cross\/zGIZbh35lUY.css"},"HBK9MF6":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iFJJ4\/yU\/l\/en_GB\/ceXjEqL77H9.js"},"+6nsFr0":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yn\/r\/yqqL1RKD2zb.js"},"hJxyygk":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ia9Z4\/yr\/l\/en_GB\/Nj0ZWa8qgUa.js"},"RwNGFt8":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yR\/r\/NTBXcpfVOaa.js"},"VB4zTC3":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yy\/r\/ozTlFblbI9G.js"},"kSEhwWL":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i-5L4\/yD\/l\/en_GB\/qlxSttIEUTZ.js"},"xsFg75a":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yt\/r\/mnLc1TS2Wp-.js"},"GXq0SB+":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yn\/r\/KlpsE6sPrrx.js"},"rCasuzG":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yA\/r\/OzWmCcYw0wO.js"},"UC5Frc1":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iL1d4\/ya\/l\/en_GB\/BsyY-adDxcu.js"},"fWTPZLV":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ij5J4\/y5\/l\/en_GB\/z-bNtzKDVcK.js"},"SWx3yNv":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y7\/r\/g__eV5OXSXl.js"},"pGlsGsW":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iXIR4\/yK\/l\/en_GB\/rByYtgcf1wc.js"},"x22Oby4":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yZ\/r\/tVshp1OIV9l.js"},"lYQi5ez":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/ym\/r\/Kvof1Yqn1Ed.js"},"8ELCBwH":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/ye\/r\/VRzSVH5iU-V.js"},"I+GHswV":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yS\/r\/ui2DkP-wt_7.js"},"vdNQr9P":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yj\/r\/FiVT6nDibIJ.js"},"\/6OScYB":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yW\/r\/z6oeeyX5c47.js"},"H\/5lfuF":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yF\/r\/iqrvM8jAXX7.js"},"17Grp2h":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y-\/r\/HhbMrxvaW_H.js"},"QyoftxH":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yL\/r\/j-_AFWnS2kv.js"},"QIamfde":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yA\/r\/Y37sQzk-yb8.js"},"gPs5ujE":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yG\/r\/t7NvWmugEXz.js"},"JuRSzyN":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yF\/r\/WzNMjfKB7nj.js"},"zPYlTyl":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yO\/r\/_tJ17sGyxOX.js"},"P\/mr5VE":{"type":"css","src":"data:text\/css; charset=utf-8,","d":1}},"compMap":{"WebSpeedInteractionsTypedLogger":{"r":["\/JZR4F\/","Af5msXa","9NiATAn","+KjJUiq","kbYk82\/"],"be":1},"AsyncRequest":{"r":["\/JZR4F\/","Af5msXa","QbnjCmb","kbYk82\/","wXaVolg"],"rds":{"m":["FbtLogging","IntlQtEventFalcoEvent"]},"be":1},"DOM":{"r":["\/JZR4F\/","wXaVolg"],"be":1},"Form":{"r":["\/JZR4F\/","Oj0mThQ","wXaVolg"],"be":1},"FormSubmit":{"r":["0Ta7b1B","\/JZR4F\/","Oj0mThQ","Af5msXa","QbnjCmb","kbYk82\/","wXaVolg"],"rds":{"m":["FbtLogging","IntlQtEventFalcoEvent"]},"be":1},"Input":{"r":["Oj0mThQ"],"be":1},"Toggler":{"r":["1Jkc8xt","p70T5CD","\/JZR4F\/","+KjJUiq","drZQBvZ","QbnjCmb","wXaVolg"],"be":1},"Tooltip":{"r":["QxhE0QB","p70T5CD","\/JZR4F\/","2tA1inM","GAXC9eR","+KjJUiq","Af5msXa","QbnjCmb","wXaVolg","Ftl2VZm","kbYk82\/","n9nzybz","ZQJBl8g","TQd9YNC","Oj0mThQ","Wp66DuT"],"rds":{"m":["FbtLogging","IntlQtEventFalcoEvent","PageTransitions","Animation"],"r":["3Dawd2q"]},"be":1},"URI":{"r":[],"be":1},"trackReferrer":{"r":[],"be":1},"PhotoTagApproval":{"r":["0n72zgh","\/JZR4F\/","+2mYsBo","wXaVolg"],"be":1},"PhotoSnowlift":{"r":["pcEMj2W","p0S2cNh","0n72zgh","1Jkc8xt","IDlYchm","QxhE0QB","i6GwLyG","p70T5CD","IC826Dq","\/JZR4F\/","2tA1inM","qd\/xc5P","i9rcSG0","46ldM\/K","bi6Pwin","3Dawd2q","dI6SdW4","xy2Pv+c","Oj0mThQ","GAXC9eR","edMqZ7Y","+KjJUiq","Af5msXa","drZQBvZ","QbnjCmb","zqVCkTS","wXaVolg","j47OODL","o2vDwxa","wx5M0\/N","wG3ElZl","\/Ns8RBM","Ftl2VZm","kbYk82\/","JouLeRi","aIMpLwa","INtuorP","7iumOzC","FAqiz1n","e+XQ0qk","8162dZj","tU6E5Hz","7VTNsO0","CpAhVZZ","paWo8RI","u7SRlPN","NlTkPnn","HDEirJw","ukQqm8V","n9nzybz","WxJBq+9","jGcZiJF","zJGop3b","v96UihS","YP05viN","ZQJBl8g","TQd9YNC","Wp66DuT"],"rds":{"m":["Animation","FbtLogging","IntlQtEventFalcoEvent","PageTransitions"]},"be":1},"PhotoTagger":{"r":["0n72zgh","i6GwLyG","sJhkEUj","p70T5CD","\/JZR4F\/","2tA1inM","bi6Pwin","3QBOKTC","Oj0mThQ","GAXC9eR","N1PKj3Q","+KjJUiq","Af5msXa","to6PWo8","drZQBvZ","b9sATVO","QbnjCmb","wXaVolg","hmc0Ch2","fQwhlTT","\/Ns8RBM","Ftl2VZm","kbYk82\/","aHchuMx","TQd9YNC","ipCbG2E","5rKFgd\/","56u9XWu","ukQqm8V","n9nzybz","yyJPDys","G2iy9Ox","3OerUPY","b\/rYFtF","ZQJBl8g","Wp66DuT"],"rds":{"m":["FbtLogging","IntlQtEventFalcoEvent","PageTransitions","Animation"],"r":["3Dawd2q"]},"be":1},"PhotoTags":{"r":["0n72zgh","\/JZR4F\/","+KjJUiq","yMgn4BF","wXaVolg"],"be":1},"TagTokenizer":{"r":["\/JZR4F\/","SFW2eQP","Oj0mThQ","HBK9MF6","+KjJUiq","wXaVolg","+6nsFr0","hJxyygk","5rKFgd\/","NlTkPnn","RwNGFt8","VB4zTC3","kSEhwWL"],"rds":{"m":["FbtLogging","IntlQtEventFalcoEvent"],"r":["Af5msXa"]},"be":1},"AsyncDialog":{"r":["1Jkc8xt","p70T5CD","\/JZR4F\/","xy2Pv+c","GAXC9eR","+KjJUiq","Af5msXa","drZQBvZ","QbnjCmb","wXaVolg","\/Ns8RBM","Ftl2VZm","kbYk82\/","JouLeRi","e+XQ0qk","8162dZj","n9nzybz","ZQJBl8g","TQd9YNC","Wp66DuT"],"rds":{"m":["FbtLogging","IntlQtEventFalcoEvent"]},"be":1},"Hovercard":{"r":["i6GwLyG","sJhkEUj","p70T5CD","\/JZR4F\/","2tA1inM","Oj0mThQ","GAXC9eR","N1PKj3Q","+KjJUiq","Af5msXa","to6PWo8","drZQBvZ","QbnjCmb","wXaVolg","hmc0Ch2","fQwhlTT","Ftl2VZm","kbYk82\/","aHchuMx","ipCbG2E","5rKFgd\/","56u9XWu","ukQqm8V","n9nzybz","yyJPDys","ZQJBl8g","TQd9YNC","Wp66DuT"],"rds":{"m":["FbtLogging","IntlQtEventFalcoEvent","PageTransitions","Animation"],"r":["3Dawd2q"]},"be":1},"XOfferController":{"r":["Oj0mThQ","xsFg75a"],"be":1},"PerfXSharedFields":{"r":["+KjJUiq","GXq0SB+"],"be":1},"KeyEventTypedLogger":{"r":["rCasuzG","\/JZR4F\/","Af5msXa","+KjJUiq","kbYk82\/"],"be":1},"Dialog":{"r":["p70T5CD","\/JZR4F\/","Oj0mThQ","GAXC9eR","+KjJUiq","Af5msXa","drZQBvZ","QbnjCmb","zqVCkTS","wXaVolg","kbYk82\/","n9nzybz","jGcZiJF","ZQJBl8g","3Dawd2q","Ftl2VZm"],"rds":{"m":["FbtLogging","IntlQtEventFalcoEvent","Animation","PageTransitions"]},"be":1},"ExceptionDialog":{"r":["1Jkc8xt","p70T5CD","UC5Frc1","\/JZR4F\/","xy2Pv+c","GAXC9eR","edMqZ7Y","+KjJUiq","drZQBvZ","QbnjCmb","wXaVolg","fWTPZLV","wG3ElZl","\/Ns8RBM","Ftl2VZm","JouLeRi","aIMpLwa","e+XQ0qk","NlTkPnn","ukQqm8V","n9nzybz","ZQJBl8g","TQd9YNC","Af5msXa","kbYk82\/","Wp66DuT"],"rds":{"m":["FbtLogging","IntlQtEventFalcoEvent"]},"be":1},"QuickSandSolver":{"r":["SWx3yNv","pGlsGsW","\/JZR4F\/","Oj0mThQ","Af5msXa","QbnjCmb","x22Oby4","kbYk82\/","lYQi5ez","8ELCBwH","wXaVolg"],"rds":{"m":["FbtLogging","IntlQtEventFalcoEvent"]},"be":1},"ConfirmationDialog":{"r":["\/JZR4F\/","I+GHswV","Oj0mThQ","+KjJUiq","vdNQr9P","\/6OScYB","wXaVolg"],"be":1},"MWADeveloperReauthBarrier":{"r":["\/JZR4F\/","H\/5lfuF","17Grp2h","QyoftxH","QIamfde"],"be":1},"ContextualLayerInlineTabOrder":{"r":["gPs5ujE","p70T5CD","\/JZR4F\/","+KjJUiq","wXaVolg"],"be":1},"XUIDialogButton.react":{"r":["p70T5CD","\/JZR4F\/","xy2Pv+c","GAXC9eR","+KjJUiq","wXaVolg","wG3ElZl","\/Ns8RBM","Ftl2VZm","JouLeRi","aIMpLwa","e+XQ0qk","n9nzybz","TQd9YNC","Af5msXa","QbnjCmb","kbYk82\/"],"rds":{"m":["FbtLogging","IntlQtEventFalcoEvent"]},"be":1},"XUIDialogBody.react":{"r":["xy2Pv+c","wG3ElZl","Ftl2VZm","aIMpLwa","n9nzybz"],"be":1},"XUIDialogFooter.react":{"r":["xy2Pv+c","wXaVolg","wG3ElZl","Ftl2VZm","aIMpLwa","e+XQ0qk","NlTkPnn","n9nzybz"],"be":1},"XUIDialogTitle.react":{"r":["p70T5CD","\/JZR4F\/","xy2Pv+c","wXaVolg","\/Ns8RBM","Ftl2VZm","JouLeRi","e+XQ0qk","n9nzybz","TQd9YNC","Af5msXa","QbnjCmb","kbYk82\/"],"rds":{"m":["FbtLogging","IntlQtEventFalcoEvent"]},"be":1},"XUIGrayText.react":{"r":["wG3ElZl","Ftl2VZm","aIMpLwa","n9nzybz"],"be":1},"DialogX":{"r":["1Jkc8xt","p70T5CD","\/JZR4F\/","xy2Pv+c","+KjJUiq","drZQBvZ","QbnjCmb","wXaVolg","Ftl2VZm","JouLeRi","n9nzybz","ZQJBl8g","Wp66DuT"],"rds":{"m":["FbtLogging","IntlQtEventFalcoEvent"],"r":["Af5msXa"]},"be":1},"react":{"r":["Ftl2VZm","n9nzybz"],"be":1}}})});</script>
-<script nonce="92pAazsi">requireLazy(["InitialJSLoader"], function(InitialJSLoader) {InitialJSLoader.loadOnDOMContentReady(["Af5msXa","GXq0SB+","\/JZR4F\/","+KjJUiq","drZQBvZ","QbnjCmb","kbYk82\/","JuRSzyN","2tA1inM","I+GHswV","zPYlTyl","\/6OScYB","Oj0mThQ","p70T5CD","GAXC9eR","Ftl2VZm","n9nzybz","ZQJBl8g","TQd9YNC","1Jkc8xt","JouLeRi","3Dawd2q","Wp66DuT","P\/mr5VE"]);});</script>
-<script nonce="92pAazsi">requireLazy(["TimeSliceImpl","ServerJS"],function(TimeSlice,ServerJS){var s=(new ServerJS());s.handle({"define":[["cr:7736",["FBLynxLogging"],{"__rc":["FBLynxLogging",null]},-1],["LinkshimHandlerConfig",[],{"supports_meta_referrer":true,"default_meta_referrer_policy":"origin-when-crossorigin","switched_meta_referrer_policy":"origin","non_linkshim_lnfb_mode":null,"link_react_default_hash":"AT0K1SS4yYxWgSZkzMnlx6Q05okgy2UWVFDgcmW3_vBf47v58w17TKt7byF0D22en7QmnFtmBg2A1raLFSuDfxFDP4OgvR3vobQh9e9Y4PXw8mOxBndLYNxT7eHZh72usrf6D7BM1O54XlL19vDryuA72HkpJxKj69cAKQ","untrusted_link_default_hash":"AT2cWexyftVzY4-2wt5OnpqW15ng2uwuK1zT_NAydrFwD1p9_bKP2ez0PF0i3_faZtgs5ahJ7iuUA7HNm4qml4dVhk-C-YaE1IlVEtSGaGdRSiEDU_4rPV7BlxD8AaMkH0Hu8M6aT4-42BWKmXz9o0ZbyjcFEKaSmM21hg","linkshim_host":"l.facebook.com","linkshim_path":"\/l.php","linkshim_enc_param":"h","linkshim_url_param":"u","use_rel_no_opener":true,"use_rel_no_referrer":true,"always_use_https":true,"onion_always_shim":true,"middle_click_requires_event":true,"www_safe_js_mode":"asynclazy","m_safe_js_mode":"MLynx_asynclazy","ghl_param_link_shim":false,"click_ids":[],"is_linkshim_supported":true,"current_domain":"facebook.com","blocklisted_domains":["ad.doubleclick.net","ads-encryption-url-example.com","bs.serving-sys.com","ad.atdmt.com","adform.net","ad13.adfarm1.adition.com","ilovemyfreedoms.com","secure.adnxs.com"],"is_mobile_device":false},27]],"instances":[["__inst_ead1e565_0_0_6P",["DialogX","LayerFadeOnHide","LayerHideOnBlur","LayerHideOnEscape","DialogHideOnSuccess","LayerHideOnTransition","LayerRemoveOnHide","__markup_9f5fac15_0_0_2s","HTML"],[{"width":400,"autohide":null,"titleID":null,"redirectURI":null,"fixedTopPosition":null,"ignoreFixedTopInShortViewport":false,"label":null,"labelledBy":"Log in","modal":true,"xui":true,"addedBehaviors":[{"__m":"LayerFadeOnHide"},{"__m":"LayerHideOnBlur"},{"__m":"LayerHideOnEscape"},{"__m":"DialogHideOnSuccess"},{"__m":"LayerHideOnTransition"},{"__m":"LayerRemoveOnHide"}],"classNames":["_ach7","_9aha"]},{"__m":"__markup_9f5fac15_0_0_2s"}],4],["__inst_ead1e565_0_1_QQ",["DialogX","LayerFadeOnHide","LayerHideOnBlur","LayerHideOnEscape","DialogHideOnSuccess","LayerHideOnTransition","LayerRemoveOnHide","__markup_9f5fac15_0_1_lt","HTML"],[{"width":400,"autohide":null,"titleID":null,"redirectURI":null,"fixedTopPosition":null,"ignoreFixedTopInShortViewport":false,"label":null,"labelledBy":"Log in","modal":true,"xui":true,"addedBehaviors":[{"__m":"LayerFadeOnHide"},{"__m":"LayerHideOnBlur"},{"__m":"LayerHideOnEscape"},{"__m":"DialogHideOnSuccess"},{"__m":"LayerHideOnTransition"},{"__m":"LayerRemoveOnHide"}],"classNames":["_ach8","_9aha"]},{"__m":"__markup_9f5fac15_0_1_lt"}],4]],"markup":[["__markup_9f5fac15_0_0_2s",{"__html":"\u003Cdiv>\u003Cdiv class=\"_4-i2 _pig _31nc _50f4\">\u003Cdiv class=\"_31nd\" id=\"u_0_o_YA\">\u003Cdiv class=\"_9ai5\">\u003Ci class=\"_9ai6 img sp_vxiiSmFDFzJ sx_082a2e\">\u003C\/i>\u003C\/div>\u003C\/div>\u003Cdiv class=\"_9ah_\">Log in to Facebook\u003C\/div>\u003Cdiv class=\"_9ai1\">\u003Chr \/>\u003C\/div>\u003Cform action=\"\/login\/device-based\/regular\/login\/\" method=\"post\" id=\"u_0_p_xP\">\u003Cinput type=\"hidden\" name=\"jazoest\" value=\"21075\" autocomplete=\"off\" \/>\u003Cinput type=\"hidden\" name=\"lsd\" value=\"AVqxsXiPGyo\" autocomplete=\"off\" \/>\u003Cdiv class=\"_6lux\">\u003Cinput type=\"text\" class=\"inputtext _55r1 _6luy\" name=\"email\" id=\"email\" data-testid=\"royal_email\" placeholder=\"Email address or phone number\" autofocus=\"1\" aria-label=\"Email address or phone number\" \/>\u003C\/div>\u003Cdiv class=\"_6lux\">\u003Cdiv class=\"_6luy _55r1 _1kbt\" id=\"passContainer\">\u003Cinput type=\"password\" class=\"inputtext _55r1 _6luy _9npi\" name=\"pass\" id=\"pass\" data-testid=\"royal_pass\" placeholder=\"Password\" aria-label=\"Password\" \/>\u003Cdiv class=\"_9ls7\" id=\"u_0_q_XC\">\u003Ca href=\"#\" role=\"button\">\u003Cdiv class=\"_9lsa\">\u003Cdiv class=\"_9lsb\" id=\"u_0_r_vt\">\u003C\/div>\u003C\/div>\u003C\/a>\u003C\/div>\u003C\/div>\u003C\/div>\u003Cinput type=\"hidden\" autocomplete=\"off\" id=\"cred_type\" name=\"cred_type\" value=\"100\" \/>\u003Cinput type=\"hidden\" autocomplete=\"off\" id=\"login_source\" name=\"login_source\" value=\"device_based_login_add_account\" \/>\u003Cdiv class=\"_9ai3\" data-testid=\"savepass-checkbox\">\u003Clabel class=\"_9ai7\">\u003Cinput type=\"checkbox\" name=\"savepass\" value=\"\" \/>\u003Cspan class=\"_9ai8\">\u003C\/span>\u003Cdiv class=\"_9ai4\">Remember password\u003C\/div>\u003C\/label>\u003C\/div>\u003Cinput type=\"hidden\" autocomplete=\"off\" name=\"next\" value=\"\" \/>\u003Cinput type=\"hidden\" autocomplete=\"off\" checked=\"1\" name=\"persistent\" \/>\u003Cdiv class=\"_3-8o\">\u003Cbutton value=\"1\" class=\"_42ft _4jy0 _31ni _4jy5 _4jy1 selected _51sy\" name=\"login\" data-testid=\"royal_login_button\" type=\"submit\">Log in\u003C\/button>\u003C\/div>\u003Cdiv class=\"_3d7w\">\u003Ca href=\"\/recover\/initiate\/?ars=www_account_switcher&amp;next\" class=\"_9ai2\">Forgotten password?\u003C\/a>\u003C\/div>\u003C\/form>\u003C\/div>\u003C\/div>"},8,"HTML"],["__markup_9f5fac15_0_1_lt",{"__html":"\u003Cdiv>\u003Cdiv class=\"_4-i2 _pig _31nc _50f4\">\u003Cdiv class=\"_31nd\" id=\"u_0_k_1K\">\u003Cdiv class=\"_9ai5\">\u003Ci class=\"_9ai6 img sp_vxiiSmFDFzJ sx_082a2e\">\u003C\/i>\u003C\/div>\u003C\/div>\u003Cimg class=\"_s0 _4ooo _1x2_ _1ve7 _31ne img\" src=\"https:\/\/scontent.fvga2-4.fna.fbcdn.net\/v\/t39.30808-1\/276257985_348907187256206_3596459484510255940_n.jpg?stp=dst-jpg_p160x160&amp;_nc_cat=109&amp;ccb=1-7&amp;_nc_sid=6738e8&amp;_nc_ohc=UXPPqPWW5K0Q7kNvgHafGtg&amp;_nc_zt=24&amp;_nc_ht=scontent.fvga2-4.fna&amp;_nc_gid=AkU9ENH5nLfVlxuP7lSr-Pl&amp;oh=00_AYBgeFf6XujF8PtOnZpSpS8lAJwA5gkW0SmYFsaYJMgOdg&amp;oe=6723D5C7\" alt=\"\" aria-label=\"Mohammad Karishma\" role=\"img\" style=\"width:160px;height:160px\" \/>\u003Cform action=\"\/login\/device-based\/regular\/login\/\" method=\"post\" id=\"u_0_l_L\/\">\u003Cinput type=\"hidden\" name=\"jazoest\" value=\"21075\" autocomplete=\"off\" \/>\u003Cinput type=\"hidden\" name=\"lsd\" value=\"AVqxsXiPGyo\" autocomplete=\"off\" \/>\u003Cdiv class=\"_9ai0\">Mohammad Karishma\u003C\/div>\u003Cinput type=\"hidden\" autocomplete=\"off\" id=\"cuid\" name=\"cuid\" value=\"AYikx2DZZLnr7oRXbI0eVFi8oyVuPEjef2WlrEatgsUXGsoYfxTgTDebXMCFYFeE2Z0i3r1fmiIDg39KWu3D_TOoQHP-GIRQxjOZh2SCIeQT3qzxPzz4oOiWDAiD6qvzN3DMbeA4Uuk5sWCCjnzTREme\" \/>\u003Cdiv class=\"_6lux\">\u003Cdiv class=\"_6luy _55r1 _1kbt\" id=\"passContainer\">\u003Cinput type=\"password\" class=\"inputtext _55r1 _6luy _9npi\" name=\"pass\" id=\"pass\" data-testid=\"royal_pass\" placeholder=\"Password\" autofocus=\"1\" aria-label=\"Password\" \/>\u003Cdiv class=\"_9ls7\" id=\"u_0_m_qy\">\u003Ca href=\"#\" role=\"button\">\u003Cdiv class=\"_9lsa\">\u003Cdiv class=\"_9lsb\" id=\"u_0_n_+K\">\u003C\/div>\u003C\/div>\u003C\/a>\u003C\/div>\u003C\/div>\u003C\/div>\u003Cinput type=\"hidden\" autocomplete=\"off\" id=\"cred_type\" name=\"cred_type\" value=\"137\" \/>\u003Cinput type=\"hidden\" autocomplete=\"off\" id=\"login_source\" name=\"login_source\" value=\"device_based_login\" \/>\u003Cdiv class=\"_9ai3\" data-testid=\"savepass-checkbox\">\u003Clabel class=\"_9ai7\">\u003Cinput type=\"checkbox\" name=\"savepass\" value=\"\" \/>\u003Cspan class=\"_9ai8\">\u003C\/span>\u003Cdiv class=\"_9ai4\">Remember password\u003C\/div>\u003C\/label>\u003C\/div>\u003Cinput type=\"hidden\" autocomplete=\"off\" name=\"next\" value=\"\" \/>\u003Cinput type=\"hidden\" autocomplete=\"off\" checked=\"1\" name=\"persistent\" \/>\u003Cdiv class=\"_3-8o\">\u003Cbutton value=\"1\" class=\"_42ft _4jy0 _31ni _4jy5 _4jy1 selected _51sy\" name=\"login\" data-testid=\"royal_login_button\" type=\"submit\">Log in\u003C\/button>\u003C\/div>\u003Cdiv class=\"_3d7w\">\u003Ca href=\"\/recover\/initiate\/?cuid=AYiWv7zR8NXjZTF3zKQ3SpyTpbM2OA0lGqur_DXJRl6C9CJqXG_1r5vL8N-aLiacYjVIRxP_Efu_9dCP7HT3Eqi4s0oStPVuolKT61nox6d0GwfVENfZ7zIeXEdYk-djeD8wABNg5Jx5Is4krOAAyN3-&amp;ars=device_based_login&amp;next\" class=\"_9ai2\">Forgotten password?\u003C\/a>\u003C\/div>\u003C\/form>\u003C\/div>\u003C\/div>"},8,"HTML"]],"elements":[["__elem_a588f507_0_1_In","u_0_1_Ws",1],["__elem_a588f507_0_0_+k","globalContainer",1],["__elem_a588f507_0_2_3W","content",1],["__elem_a588f507_0_7_Rn","u_0_2_M8",1],["__elem_4d91b5fa_0_0_li","u_0_3_Kb",1],["__elem_9f5fac15_0_0_X\/","u_0_4_wr",1],["__elem_072b8e64_0_0_6B","u_0_5_od",1],["__elem_835c633a_0_1_Yb","u_0_6_Bp",1],["__elem_9f5fac15_0_1_LO","passContainer",1],["__elem_558608f3_0_0_iY","pass",1],["__elem_a588f507_0_4_4I","u_0_7_Sf",1],["__elem_a588f507_0_5_Xy","u_0_8_VC",1],["__elem_45d73b5d_0_0_yn","u_0_9_ex",1],["__elem_072b8e64_0_1_i+","u_0_a_qp",1],["__elem_072b8e64_0_2_Ur","u_0_b_pH",1],["__elem_072b8e64_0_3_KR","u_0_c_Av",1],["__elem_072b8e64_0_4_X2","u_0_d_1h",1],["__elem_072b8e64_0_5_ow","u_0_e_v\/",1],["__elem_072b8e64_0_6_eN","u_0_f_Yf",1],["__elem_072b8e64_0_7_6A","u_0_g_pp",1],["__elem_072b8e64_0_8_Ja","u_0_h_CT",1],["__elem_072b8e64_0_9_Hv","u_0_i_b3",1],["__elem_072b8e64_0_a_j8","u_0_j_r8",1],["__elem_a588f507_0_6_ec","u_0_k_1K",1,"__markup_9f5fac15_0_1_lt"],["__elem_835c633a_0_2_rm","u_0_l_L\/",1,"__markup_9f5fac15_0_1_lt"],["__elem_9f5fac15_0_3_n+","passContainer",1,"__markup_9f5fac15_0_1_lt"],["__elem_558608f3_0_2_hD","pass",1,"__markup_9f5fac15_0_1_lt"],["__elem_a588f507_0_a_SC","u_0_m_qy",1,"__markup_9f5fac15_0_1_lt"],["__elem_a588f507_0_b_KJ","u_0_n_+K",1,"__markup_9f5fac15_0_1_lt"],["__elem_a588f507_0_3_vz","u_0_o_YA",1,"__markup_9f5fac15_0_0_2s"],["__elem_835c633a_0_0_27","u_0_p_xP",1,"__markup_9f5fac15_0_0_2s"],["__elem_9f5fac15_0_2_ZF","passContainer",1,"__markup_9f5fac15_0_0_2s"],["__elem_558608f3_0_1_vi","pass",1,"__markup_9f5fac15_0_0_2s"],["__elem_a588f507_0_8_PX","u_0_q_XC",1,"__markup_9f5fac15_0_0_2s"],["__elem_a588f507_0_9_H4","u_0_r_vt",1,"__markup_9f5fac15_0_0_2s"]],"require":[["ServiceWorkerLoginAndLogout","login",[],[]],["WebPixelRatioDetector","startDetecting",[],[false]],["ScriptPath","set",[],["XIndexReduxController","a1f3c513",{"imp_id":"0WqFsA89AOS46joDp","ef_page":null,"uri":"https:\/\/www.facebook.com\/"}]],["UITinyViewportAction","init",[],[]],["ResetScrollOnUnload","init",["__elem_a588f507_0_0_+k"],[{"__m":"__elem_a588f507_0_0_+k"}]],["KeyboardActivityLogger","init",[],[]],["FocusRing","init",[],[]],["ErrorMessageConsole","listenForUncaughtErrors",[],[]],["HardwareCSS","init",[],[]],["DeviceBasedLoginUserLoginDialog","init",["__inst_ead1e565_0_0_6P","__elem_a588f507_0_3_vz"],[{"__m":"__inst_ead1e565_0_0_6P"},{"__m":"__elem_a588f507_0_3_vz"},null]],["DeviceBasedLoginUserLoginDialog","handleFormSubmit",["__inst_ead1e565_0_0_6P","__elem_835c633a_0_0_27"],[{"dialog":{"__m":"__inst_ead1e565_0_0_6P"},"loginForm":{"__m":"__elem_835c633a_0_0_27"},"pubKey":{"publicKey":"31da6abde1b64c39c3cf5edad295f86afb115736366edf3492c723f8b1eaa35e","keyId":28},"sharedPrefs":false}]],["__inst_ead1e565_0_0_6P"],["DeviceLoginUserAnimation","init",["__elem_9f5fac15_0_0_X\/","__elem_072b8e64_0_0_6B","__inst_ead1e565_0_0_6P"],[{"__m":"__elem_9f5fac15_0_0_X\/"},{"__m":"__elem_072b8e64_0_0_6B"},true,{"__m":"__inst_ead1e565_0_0_6P"}]],["LoginInitialLoadLogger","onLoad",[],["homepage"]],["LoginFormController","init",["__elem_835c633a_0_1_Yb","__elem_45d73b5d_0_0_yn"],[{"__m":"__elem_835c633a_0_1_Yb"},{"__m":"__elem_45d73b5d_0_0_yn"},null,true,{"pubKey":{"publicKey":"31da6abde1b64c39c3cf5edad295f86afb115736366edf3492c723f8b1eaa35e","keyId":28}},false]],["BrowserPrefillLogging","initContactpointFieldLogging",[],[{"contactpointFieldID":"email","serverPrefill":""}]],["BrowserPrefillLogging","initPasswordFieldLogging",[],[{"passwordFieldID":"pass"}]],["FocusListener"],["FlipDirectionOnKeypress"],["LoginFormToggle","initToggle",["__elem_a588f507_0_4_4I","__elem_a588f507_0_5_Xy","__elem_558608f3_0_0_iY","__elem_9f5fac15_0_1_LO"],[{"__m":"__elem_a588f507_0_4_4I"},{"__m":"__elem_a588f507_0_5_Xy"},{"__m":"__elem_558608f3_0_0_iY"},{"__m":"__elem_9f5fac15_0_1_LO"}]],["IntlUtils","initOnClickHandler",["__elem_072b8e64_0_1_i+"],[{"__m":"__elem_072b8e64_0_1_i+"},"te_IN","en_GB",false,"www_list_selector","https:\/\/te-in.facebook.com\/",0]],["IntlUtils","initOnClickHandler",["__elem_072b8e64_0_2_Ur"],[{"__m":"__elem_072b8e64_0_2_Ur"},"ur_PK","en_GB",false,"www_list_selector","https:\/\/ur-pk.facebook.com\/",1]],["IntlUtils","initOnClickHandler",["__elem_072b8e64_0_3_KR"],[{"__m":"__elem_072b8e64_0_3_KR"},"hi_IN","en_GB",false,"www_list_selector","https:\/\/hi-in.facebook.com\/",2]],["IntlUtils","initOnClickHandler",["__elem_072b8e64_0_4_X2"],[{"__m":"__elem_072b8e64_0_4_X2"},"ta_IN","en_GB",false,"www_list_selector","https:\/\/ta-in.facebook.com\/",3]],["IntlUtils","initOnClickHandler",["__elem_072b8e64_0_5_ow"],[{"__m":"__elem_072b8e64_0_5_ow"},"or_IN","en_GB",false,"www_list_selector","https:\/\/or-in.facebook.com\/",4]],["IntlUtils","initOnClickHandler",["__elem_072b8e64_0_6_eN"],[{"__m":"__elem_072b8e64_0_6_eN"},"kn_IN","en_GB",false,"www_list_selector","https:\/\/kn-in.facebook.com\/",5]],["IntlUtils","initOnClickHandler",["__elem_072b8e64_0_7_6A"],[{"__m":"__elem_072b8e64_0_7_6A"},"ml_IN","en_GB",false,"www_list_selector","https:\/\/ml-in.facebook.com\/",6]],["IntlUtils","initOnClickHandler",["__elem_072b8e64_0_8_Ja"],[{"__m":"__elem_072b8e64_0_8_Ja"},"es_LA","en_GB",false,"www_list_selector","https:\/\/es-la.facebook.com\/",7]],["IntlUtils","initOnClickHandler",["__elem_072b8e64_0_9_Hv"],[{"__m":"__elem_072b8e64_0_9_Hv"},"pt_BR","en_GB",false,"www_list_selector","https:\/\/pt-br.facebook.com\/",8]],["IntlUtils","initOnClickHandler",["__elem_072b8e64_0_a_j8"],[{"__m":"__elem_072b8e64_0_a_j8"},"fr_FR","en_GB",false,"www_list_selector","https:\/\/fr-fr.facebook.com\/",9]],["FBLynx","setupDelegation",[],[]],["DeviceBasedLoginUserLoginDialog","init",["__inst_ead1e565_0_1_QQ","__elem_a588f507_0_6_ec"],[{"__m":"__inst_ead1e565_0_1_QQ"},{"__m":"__elem_a588f507_0_6_ec"},null]],["DeviceBasedLoginUserLoginDialog","handleFormSubmit",["__inst_ead1e565_0_1_QQ","__elem_835c633a_0_2_rm"],[{"dialog":{"__m":"__inst_ead1e565_0_1_QQ"},"loginForm":{"__m":"__elem_835c633a_0_2_rm"},"pubKey":{"publicKey":"31da6abde1b64c39c3cf5edad295f86afb115736366edf3492c723f8b1eaa35e","keyId":28},"sharedPrefs":false}]],["__inst_ead1e565_0_1_QQ"],["DeviceLoginUserAnimation","init",["__elem_a588f507_0_7_Rn","__elem_4d91b5fa_0_0_li","__inst_ead1e565_0_1_QQ"],[{"__m":"__elem_a588f507_0_7_Rn"},{"__m":"__elem_4d91b5fa_0_0_li"},true,{"__m":"__inst_ead1e565_0_1_QQ"}]],["Tooltip"],["PageTransitions"],["LoginFormToggle","initToggle",["__elem_a588f507_0_8_PX","__elem_a588f507_0_9_H4","__elem_558608f3_0_1_vi","__elem_9f5fac15_0_2_ZF"],[{"__m":"__elem_a588f507_0_8_PX"},{"__m":"__elem_a588f507_0_9_H4"},{"__m":"__elem_558608f3_0_1_vi"},{"__m":"__elem_9f5fac15_0_2_ZF"}]],["LoginFormToggle","initToggle",["__elem_a588f507_0_a_SC","__elem_a588f507_0_b_KJ","__elem_558608f3_0_2_hD","__elem_9f5fac15_0_3_n+"],[{"__m":"__elem_a588f507_0_a_SC"},{"__m":"__elem_a588f507_0_b_KJ"},{"__m":"__elem_558608f3_0_2_hD"},{"__m":"__elem_9f5fac15_0_3_n+"}]],["Animation"],["RequireDeferredReference","unblock",[],[["FbtLogging","IntlQtEventFalcoEvent","PageTransitions","Animation"],"sd"]],["RequireDeferredReference","unblock",[],[["FbtLogging","IntlQtEventFalcoEvent","PageTransitions","Animation"],"css"]],["TimeSliceImpl"],["HasteSupportData"],["ServerJS"],["Run"],["InitialJSLoader"]],"contexts":[[{"__m":"__elem_a588f507_0_1_In"},true],[{"__m":"__elem_a588f507_0_2_3W"},true]]});requireLazy(["Run"],function(Run){Run.onAfterLoad(function(){s.cleanup(TimeSlice)})});});
+<!--[if IE 9 ]>   <html class="no-js oldie ie9 ie" lang="en-US" > <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="en-US" > <!--<![endif]-->
+<head>
+        <meta charset="UTF-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- devices setting -->
+        <meta name="viewport"   content="initial-scale=1,user-scalable=no,width=device-width">
 
+<!-- outputs by wp_head -->
+<title>Mind Circuit &#8211; Your Gateway to Excellence in DevOps Training!</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Mind Circuit &raquo; Feed" href="https://mindcircuit.in/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Mind Circuit &raquo; Comments Feed" href="https://mindcircuit.in/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/mindcircuit.in\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.5"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
 </script>
-<script nonce="92pAazsi">now_inl=(function(){var p=window.performance;return p&&p.now&&p.timing&&p.timing.navigationStart?function(){return p.now()+p.timing.navigationStart}:function(){return new Date().getTime()};})(); window.__bigPipeFR=now_inl();</script>
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v4/yc/l/0,cross/NjtGKjMrjf3.css" as="style" crossorigin="anonymous" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v4/yT/l/0,cross/fU4yroJyKn1.css" as="style" crossorigin="anonymous" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v4/yI/l/0,cross/qX9_0NUP7jn.css" as="style" crossorigin="anonymous" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v4/yo/l/0,cross/PNGqFgfBpcD.css" as="style" crossorigin="anonymous" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/szSrDf3yAfN.js" as="script" crossorigin="anonymous" nonce="92pAazsi" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3ij9m4/yC/l/en_GB/-7SoqkOoiBI.js" as="script" crossorigin="anonymous" nonce="92pAazsi" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v4/yn/l/0,cross/Gb-fGaKG89C.css" as="style" crossorigin="anonymous" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/R8ZTLxqI2uK.js" as="script" crossorigin="anonymous" nonce="92pAazsi" />
-<link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/5fX-Po9j9H3.js" as="script" crossorigin="anonymous" nonce="92pAazsi" />
-<script nonce="92pAazsi">window.__bigPipeCtor=now_inl();requireLazy(["BigPipe"],function(BigPipe){define("__bigPipe",[],window.bigPipe=new BigPipe({"forceFinish":true,"config":{"flush_pagelets_asap":true,"dispatch_pagelet_replayable_actions":false}}));});</script>
-<script nonce="92pAazsi">(function(){var n=now_inl();requireLazy(["__bigPipe"],function(bigPipe){bigPipe.beforePageletArrive("first_response",n);})})();</script>
-<script nonce="92pAazsi">requireLazy(["__bigPipe"],(function(bigPipe){bigPipe.onPageletArrive({displayResources:["n+36Djy","wXaVolg","wG3ElZl","xy2Pv+c","/JZR4F/","Af5msXa","QxhE0QB","P/mr5VE","QbnjCmb","kbYk82/"],id:"first_response",phase:0,last_in_phase:true,tti_phase:0,all_phases:[63],hsrp:{hblp:{consistency:{rev:1017706399}}},allResources:["Af5msXa","GXq0SB+","/JZR4F/","+KjJUiq","drZQBvZ","QbnjCmb","kbYk82/","n+36Djy","wXaVolg","wG3ElZl","xy2Pv+c","QxhE0QB","JuRSzyN","2tA1inM","I+GHswV","zPYlTyl","/6OScYB","Oj0mThQ","p70T5CD","GAXC9eR","Ftl2VZm","n9nzybz","ZQJBl8g","P/mr5VE","TQd9YNC","1Jkc8xt","JouLeRi","3Dawd2q","Wp66DuT"]});}));</script>
-<script nonce="92pAazsi">requireLazy(["__bigPipe"],function(bigPipe){bigPipe.setPageID("7430408381190585077")});</script><script nonce="92pAazsi">(function(){var n=now_inl();requireLazy(["__bigPipe"],function(bigPipe){bigPipe.beforePageletArrive("last_response",n);})})();</script>
-<script nonce="92pAazsi">requireLazy(["__bigPipe"],(function(bigPipe){bigPipe.onPageletArrive({displayResources:["kbYk82/"],id:"last_response",phase:63,last_in_phase:true,the_end:true,jsmods:{define:[["cr:6016",["NavigationMetricsWWW"],{__rc:["NavigationMetricsWWW",null]},-1],["cr:7383",["BanzaiWWW"],{__rc:["BanzaiWWW",null]},-1],["cr:5662",["Event"],{__rc:["Event",null]},-1],["cr:4425",[],{__rc:[null,null]},-1],["cr:686",[],{__rc:[null,null]},-1],["cr:1984081",[],{__rc:[null,null]},-1],["cr:3376",[],{__rc:[null,null]},-1],["cr:1083116",["XAsyncRequest"],{__rc:["XAsyncRequest",null]},-1],["cr:1083117",[],{__rc:[null,null]},-1],["cr:734",[],{__rc:[null,null]},-1],["cr:755",["warningWWW"],{__rc:["warningWWW",null]},-1],["cr:1293",["ReactDOM.classic"],{__rc:["ReactDOM.classic",null]},-1],["cr:7162",["ReactDOMCompatibilityLayer"],{__rc:["ReactDOMCompatibilityLayer",null]},-1],["cr:971473",["LayerHideOnTransition"],{__rc:["LayerHideOnTransition",null]},-1],["cr:1108857",[],{__rc:[null,null]},-1],["cr:1294158",["React.classic"],{__rc:["React.classic",null]},-1],["cr:1294159",["ReactDOM.classic"],{__rc:["ReactDOM.classic",null]},-1],["TimeSliceInteractionSV",[],{on_demand_reference_counting:true,on_demand_profiling_counters:true,default_rate:1000,lite_default_rate:100,interaction_to_lite_coinflip:{ADS_INTERFACES_INTERACTION:0,ads_perf_scenario:0,ads_wait_time:0,Event:1},interaction_to_coinflip:{ADS_INTERFACES_INTERACTION:1,ads_perf_scenario:1,ads_wait_time:1,Event:100},enable_heartbeat:false,maxBlockMergeDuration:0,maxBlockMergeDistance:0,enable_banzai_stream:true,user_timing_coinflip:50,banzai_stream_coinflip:0,compression_enabled:true,ref_counting_fix:false,ref_counting_cont_fix:false,also_record_new_timeslice_format:false,force_async_request_tracing_on:false},2609],["BDSignalCollectionData",[],{sc:"{\"t\":1659080345,\"c\":[[30000,838801],[30001,838801],[30002,838801],[30003,838801],[30004,838801],[30005,838801],[30006,573585],[30007,838801],[30008,838801],[30012,838801],[30013,838801],[30015,806033],[30018,806033],[30021,540823],[30022,540817],[30040,806033],[30093,806033],[30094,806033],[30095,806033],[30101,541591],[30102,541591],[30103,541591],[30104,541591],[30106,806039],[30107,806039],[38000,541427],[38001,806643]]}",fds:60,fda:60,i:60,sbs:1,dbs:100,bbs:100,hbi:60,rt:262144,hbcbc:2,hbvbc:0,hbbi:30,sid:-1,hbv:"207233166576385111"},5239],["IntlCurrentLocale",[],{code:"en_GB"},5954],["USIDMetadata",[],{browser_id:"?",tab_id:"",page_id:"Psm0h7228fh2v",transition_id:0,version:6},5888],["cr:1642797",["BanzaiBase"],{__rc:["BanzaiBase",null]},-1],["cr:1042",["XAsyncRequestWWW"],{__rc:["XAsyncRequestWWW",null]},-1],["cr:2682",["warningBlueish"],{__rc:["warningBlueish",null]},-1],["cr:11202",[],{__rc:[null,null]},-1],["cr:1105154",[],{__rc:[null,null]},-1],["cr:5277",["ReactDOM.classic.prod-or-profiling"],{__rc:["ReactDOM.classic.prod-or-profiling",null]},-1],["cr:1292365",["React-prod.classic"],{__rc:["React-prod.classic",null]},-1],["cr:6114",["DOM"],{__rc:["DOM",null]},-1],["KSConfig",[],{killed:{__set:["POCKET_MONSTERS_CREATE","POCKET_MONSTERS_DELETE","POCKET_MONSTERS_UPDATE_NAME"]},ko:{__set:["acrJTh9WGdp","1oOE64fL4wO","7r6mSP7ofr2"]}},2580],["cr:917439",["PageTransitionsBlue"],{__rc:["PageTransitionsBlue",null]},-1],["cr:1172",["WebSession"],{__rc:["WebSession",null]},-1],["cr:2037",["BanzaiAdapter"],{__rc:["BanzaiAdapter",null]},-1],["cr:3724",["SetIdleTimeoutAcrossTransitions"],{__rc:["SetIdleTimeoutAcrossTransitions",null]},-1],["cr:9985",["performanceAbsoluteNow"],{__rc:["performanceAbsoluteNow",null]},-1],["cr:9986",["CurrentUser"],{__rc:["CurrentUser",null]},-1],["cr:9987",["NavigationMetrics"],{__rc:["NavigationMetrics",null]},-1],["cr:9988",["Visibility"],{__rc:["Visibility",null]},-1],["cr:2683",["warningBlue"],{__rc:["warningBlue",null]},-1],["cr:5278",["ReactDOM-prod.classic"],{__rc:["ReactDOM-prod.classic",null]},-1],["cr:5866",["BanzaiAdapterWWW"],{__rc:["BanzaiAdapterWWW",null]},-1],["cr:7384",["cancelIdleCallbackWWW"],{__rc:["cancelIdleCallbackWWW",null]},-1],["cr:3695",[],{__rc:[null,null]},-1],["cr:983844",[],{__rc:[null,null]},-1],["cr:5695",["EventListenerWWW"],{__rc:["EventListenerWWW",null]},-1],["cr:8909",["ReactFiberErrorDialogWWW"],{__rc:["ReactFiberErrorDialogWWW",null]},-1],["CurrentEnvironment",[],{facebookdotcom:true,messengerdotcom:false,workplacedotcom:false,instagramdotcom:false,workdotmetadotcom:false,horizondotmetadotcom:false},827],["PageTransitionsConfig",[],{reloadOnBootloadError:true},1067],["CometAltpayJsSdkIframeAllowedDomains",[],{allowed_domains:["https://live.adyen.com","https://integration-facebook.payu.in","https://facebook.payulatam.com","https://secure.payu.com","https://facebook.dlocal.com","https://buy2.boku.com"]},4920],["CoreWarningGK",[],{forceWarning:false},725],["cr:692209",["cancelIdleCallbackBlue"],{__rc:["cancelIdleCallbackBlue",null]},-1],["cr:1353359",["EventListenerImplForBlue"],{__rc:["EventListenerImplForBlue",null]},-1],["BanzaiConfig",[],{MAX_SIZE:10000,MAX_WAIT:150000,MIN_WAIT:null,RESTORE_WAIT:150000,blacklist:["time_spent"],disabled:false,gks:{boosted_pagelikes:true,platform_oauth_client_events:true,sticker_search_ranking:true},known_routes:["artillery_javascript_actions","artillery_javascript_trace","artillery_logger_data","logger","falco","gk2_exposure","js_error_logging","loom_trace","marauder","perfx_custom_logger_endpoint","qex","require_cond_exposure_logging","metaconfig_exposure"],should_drop_unknown_routes:true,should_log_unknown_routes:false},7],["cr:6943",["EventListenerImplForCacheStorage"],{__rc:["EventListenerImplForCacheStorage",null]},-1],["cr:1634616",["UserActivityBlue"],{__rc:["UserActivityBlue",null]},-1],["cr:844180",["TimeSpentImmediateActiveSecondsLoggerBlue"],{__rc:["TimeSpentImmediateActiveSecondsLoggerBlue",null]},-1],["cr:1187159",["BlueCompatBroker"],{__rc:["BlueCompatBroker",null]},-1],["WebDevicePerfInfoData",[],{needsFullUpdate:true,needsPartialUpdate:false,shouldLogResourcePerf:false},3977],["WebStorageMonsterLoggingURI",[],{uri:"/ajax/webstorage/process_keys/?state=1"},3032],["TimeSpentConfig",[],{delay:1000,timeout:64,"0_delay":0,"0_timeout":8},142],["cr:710",[],{__rc:[null,null]},-1],["ImmediateActiveSecondsConfig",[],{sampling_rate:0},423]],require:[["BDClientSignalCollectionTrigger","startSignalCollection",[],[{sc:"{\"t\":1659080345,\"c\":[[30000,838801],[30001,838801],[30002,838801],[30003,838801],[30004,838801],[30005,838801],[30006,573585],[30007,838801],[30008,838801],[30012,838801],[30013,838801],[30015,806033],[30018,806033],[30021,540823],[30022,540817],[30040,806033],[30093,806033],[30094,806033],[30095,806033],[30101,541591],[30102,541591],[30103,541591],[30104,541591],[30106,806039],[30107,806039],[38000,541427],[38001,806643]]}",fds:60,fda:60,i:60,sbs:1,dbs:100,bbs:100,hbi:60,rt:262144,hbcbc:2,hbvbc:0,hbbi:30,sid:-1,hbv:"207233166576385111"}]],["NavigationMetrics","setPage",[],[{page:"XIndexReduxController",page_type:"normal",page_uri:"https://www.facebook.com/",serverLID:"7430408381190585077"}]],["FalcoLoggerTransports","attach",[],[]],["Chromedome","start",[],[{}]],["DimensionTracking"],["ClickRefLogger"],["NavigationClickPointHandler"],["ServiceWorkerURLCleaner","removeRedirectID",[],[]],["WebDevicePerfInfoLogging","doLog",[],[]],["WebStorageMonster","schedule",[],[]],["Artillery","disable",[],[]],["ScriptPathLogger","startLogging",[],[]],["TimeSpentBitArrayLogger","init",[],[]],["TransportSelectingClientSingletonConditional"],["RequireDeferredReference","unblock",[],[["TransportSelectingClientSingletonConditional"],"sd"]],["RequireDeferredReference","unblock",[],[["TransportSelectingClientSingletonConditional"],"css"]]]},hsrp:{hsdp:{clpData:{"1871697":{r:1,s:1},"1829319":{r:1},"1829320":{r:1},"1843988":{r:1}}},hblp:{consistency:{rev:1017706399}}},allResources:["JuRSzyN","/JZR4F/","Af5msXa","zPYlTyl","3Dawd2q","ZQJBl8g","QbnjCmb","JouLeRi","kbYk82/"]});}));</script></body></html>
+<link rel='stylesheet' id='bdt-uikit-css' href='https://mindcircuit.in/wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css?ver=3.16.24' media='all' />
+<link rel='stylesheet' id='ep-helper-css' href='https://mindcircuit.in/wp-content/plugins/bdthemes-element-pack/assets/css/ep-helper.css?ver=7.4.0' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<style id='depicter-slider-style-inline-css'>
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-depicter {
+  background-color: #21759b;
+  color: #fff;
+  padding: 2px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='auxin-news-main-css' href='https://mindcircuit.in/wp-content/themes/phlox-pro/css/news.css?ver=1.6.5' media='all' />
+<link rel='stylesheet' id='chaty-front-css-css' href='https://mindcircuit.in/wp-content/plugins/chaty/css/chaty-front.min.css?ver=3.1.81703248426' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://mindcircuit.in/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.8.4' media='all' />
+<link rel='stylesheet' id='wp-ulike-css' href='https://mindcircuit.in/wp-content/plugins/wp-ulike/assets/css/wp-ulike.min.css?ver=4.6.9' media='all' />
+<link rel='stylesheet' id='auxin-base-css' href='https://mindcircuit.in/wp-content/themes/phlox-pro/css/base.css?ver=5.15.0' media='all' />
+<link rel='stylesheet' id='auxin-front-icon-css' href='https://mindcircuit.in/wp-content/themes/phlox-pro/css/auxin-icon.css?ver=5.15.0' media='all' />
+<link rel='stylesheet' id='auxin-main-css' href='https://mindcircuit.in/wp-content/themes/phlox-pro/css/main.css?ver=5.15.0' media='all' />
+<link rel='stylesheet' id='elementor-icons-ekiticons-css' href='https://mindcircuit.in/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=3.2.0' media='all' />
+<link rel='stylesheet' id='elementskit-parallax-style-css' href='https://mindcircuit.in/wp-content/plugins/elementskit/modules/parallax/assets/css/style.css?ver=3.6.1' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://mindcircuit.in/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.25.0' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://mindcircuit.in/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.18.2' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://mindcircuit.in/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6' media='all' />
+<link rel='stylesheet' id='elementor-post-101-css' href='https://mindcircuit.in/wp-content/uploads/elementor/css/post-101.css?ver=1705577019' media='all' />
+<link rel='stylesheet' id='auxin-elementor-base-css' href='https://mindcircuit.in/wp-content/themes/phlox-pro/css/other/elementor.css?ver=5.15.0' media='all' />
+<link rel='stylesheet' id='auxin-elementor-widgets-css' href='https://mindcircuit.in/wp-content/plugins/auxin-elements/admin/assets/css/elementor-widgets.css?ver=2.15.2' media='all' />
+<link rel='stylesheet' id='mediaelement-css' href='https://mindcircuit.in/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://mindcircuit.in/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.5.5' media='all' />
+<link rel='stylesheet' id='cotton-css' href='https://mindcircuit.in/wp-content/plugins/elementskit/modules/mouse-cursor/assets/css/style.css?ver=3.6.1' media='all' />
+<link rel='stylesheet' id='elementor-post-107-css' href='https://mindcircuit.in/wp-content/uploads/elementor/css/post-107.css?ver=1719922292' media='all' />
+<link rel='stylesheet' id='ms-main-css' href='https://mindcircuit.in/wp-content/plugins/masterslider/public/assets/css/masterslider.main.css?ver=3.7.0' media='all' />
+<link rel='stylesheet' id='ms-custom-css' href='https://mindcircuit.in/wp-content/uploads/masterslider/custom.css?ver=1.1' media='all' />
+<link rel='stylesheet' id='auxin-fonts-google-css' href='//fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic%7CJosefin+Sans%3A100%2C200%2C300%2Cregular%2C500%2C600%2C700%2C100italic%2C200italic%2C300italic%2Citalic%2C500italic%2C600italic%2C700italic&#038;ver=9.7' media='all' />
+<link rel='stylesheet' id='auxin-custom-css' href='https://mindcircuit.in/wp-content/uploads/phlox-pro/custom.css?ver=9.7' media='all' />
+<link rel='stylesheet' id='auxin-go-pricing-css' href='https://mindcircuit.in/wp-content/themes/phlox-pro/css/go-pricing.css?ver=5.15.0' media='all' />
+<link rel='stylesheet' id='auxin-portfolio-css' href='https://mindcircuit.in/wp-content/themes/phlox-pro/css/portfolio.css?ver=2.3.2' media='all' />
+<link rel='stylesheet' id='elementor-post-103-css' href='https://mindcircuit.in/wp-content/uploads/elementor/css/post-103.css?ver=1706533763' media='all' />
+<link rel='stylesheet' id='elementor-post-102-css' href='https://mindcircuit.in/wp-content/uploads/elementor/css/post-102.css?ver=1705577020' media='all' />
+<link rel='stylesheet' id='ekit-widget-styles-css' href='https://mindcircuit.in/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=3.2.0' media='all' />
+<link rel='stylesheet' id='ekit-widget-styles-pro-css' href='https://mindcircuit.in/wp-content/plugins/elementskit/widgets/init/assets/css/widget-styles-pro.css?ver=3.6.1' media='all' />
+<link rel='stylesheet' id='ekit-responsive-css' href='https://mindcircuit.in/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=3.2.0' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.5.5' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://mindcircuit.in/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://mindcircuit.in/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://mindcircuit.in/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src="https://mindcircuit.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://mindcircuit.in/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/auxin-pro-tools/admin/assets/js/elementor/widgets.js?ver=1.9.1" id="auxin-elementor-pro-widgets-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/masterslider/includes/modules/elementor/assets/js/elementor-widgets.js?ver=3.7.0" id="masterslider-elementor-widgets-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementskit/modules/parallax/assets/js/jarallax.js?ver=3.6.1" id="jarallax-js"></script>
+<script id="auxin-modernizr-js-extra">
+var auxin = {"ajax_url":"https:\/\/mindcircuit.in\/wp-admin\/admin-ajax.php","is_rtl":"","is_reponsive":"1","is_framed":"","frame_width":"20","wpml_lang":"en","uploadbaseurl":"https:\/\/mindcircuit.in\/wp-content\/uploads","nonce":"de60710e2b"};
+</script>
+<script id="auxin-modernizr-js-before">
+/* < ![CDATA[ */
+function auxinNS(n){for(var e=n.split("."),a=window,i="",r=e.length,t=0;r>t;t++)"window"!=e[t]&&(i=e[t],a[i]=a[i]||{},a=a[i]);return a;}
+/* ]]> */
+</script>
+<script src="https://mindcircuit.in/wp-content/themes/phlox-pro/js/solo/modernizr-custom.min.js?ver=5.15.0" id="auxin-modernizr-js"></script>
+<link rel="https://api.w.org/" href="https://mindcircuit.in/wp-json/" /><link rel="alternate" type="application/json" href="https://mindcircuit.in/wp-json/wp/v2/pages/107" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mindcircuit.in/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.5.5" />
+<link rel="canonical" href="https://mindcircuit.in/" />
+<link rel='shortlink' href='https://mindcircuit.in/' />
+<link rel="alternate" type="application/json+oembed" href="https://mindcircuit.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmindcircuit.in%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://mindcircuit.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmindcircuit.in%2F&#038;format=xml" />
+    <meta name="title"       content="Home" />
+    <meta name="description" content="Course Content Highlights Receive Class Recordings Immediately Gain access to recordings following each session. Daily Q&amp;A or Doubt Session Get your queries addressed promptly. 2 -Year Valididty and Access Watch recordings at your convenience for two years Practice Group and Weekly Assessment Stay engaged and assess your progress. Batch Transfer &amp; Batch Repetition Flexibility for seamless learning. Resume [&hellip;]" />
+    <script>var ms_grabbing_curosr='https://mindcircuit.in/wp-content/plugins/masterslider/public/assets/css/common/grabbing.cur',ms_grab_curosr='https://mindcircuit.in/wp-content/plugins/masterslider/public/assets/css/common/grab.cur';</script>
+<meta name="generator" content="MasterSlider 3.7.0 - Responsive Touch Image Slider" />
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#1bb0ce" />
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#1bb0ce" />
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<meta name="generator" content="Elementor 3.18.2; features: e_dom_optimization, e_optimized_assets_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
+
+			<script type="text/javascript">
+				var elementskit_module_parallax_url = "https://mindcircuit.in/wp-content/plugins/elementskit/modules/parallax/"
+			</script>
+		<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://mindcircuit.in/wp-content/uploads/2020/12/cropped-3DPDF__1___1_-removebg-preview-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://mindcircuit.in/wp-content/uploads/2020/12/cropped-3DPDF__1___1_-removebg-preview-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://mindcircuit.in/wp-content/uploads/2020/12/cropped-3DPDF__1___1_-removebg-preview-180x180.png" />
+<meta name="msapplication-TileImage" content="https://mindcircuit.in/wp-content/uploads/2020/12/cropped-3DPDF__1___1_-removebg-preview-270x270.png" />
+		<style id="wp-custom-css">
+			.single-portfolio .aux-full-container  .aux-wrapper  .aux-container{
+	max-width:1670px;
+	padding-top:145px;
+	padding-right: 35px;
+   padding-left: 35px;
+
+}
+.single-portfolio .type-portfolio.aux-side-right {
+    padding-right: 648px;
+}
+@media screen and (max-width: 1449px) and (min-width: 1025px){
+.single-portfolio .type-portfolio.aux-side-right {
+    padding-right: 625px!important;
+	}}
+@media screen and (max-width: 1024px){
+.single-portfolio .type-portfolio.aux-side-right {
+    padding-right: 0px!important;
+	}}
+@media screen and (max-width:1024px){
+.single-portfolio .type-portfolio .aux-sticky-position{
+    width: 100%!important;
+	float:none;
+   	}}
+
+@media screen and (max-width: 1024px){
+	.single-portfolio .aux-resp .type-portfolio.aux-side-right .entry-main {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 35px 35px 0;
+    width: 100%;
+    float: none;
+    left: 0;
+}
+}
+.single-portfolio .entry-media img{
+	border-radius:25px;
+}
+.single-portfolio .aux-full-container .type-portfolio.aux-side-right  .entry-main {
+	width:100%!important;
+	margin-right:0px;
+	padding:0;
+	
+}
+
+.single-portfolio .aux-full-container .type-portfolio.aux-side-right  .entry-side {
+    width: 520px;
+	padding-right:0;
+	margin-left:0;
+	margin-right:-630px;
+}
+.single-portfolio .wpulike .wp_ulike_general_class{
+	display:block;
+}
+
+
+.single-portfolio .aux-single .type-portfolio .entry-side-title{
+	margin-bottom:30px;
+}
+
+.single-portfolio .aux-button.aux-black{
+	background-color:var( --e-global-color-secondary );
+	box-shadow:0px 10px 15px #FE346E4D;
+	padding:20px 40px 20px 40px;
+}
+.single-portfolio .aux-button.aux-black:hover{
+	background-color:var( --e-global-color-5993c87 );
+	}
+.single-portfolio .aux-button.aux-black .aux-overlay::after{
+	background-color:unset;
+}
+.single-portfolio .aux-button .aux-text{
+	font-size:18px;
+	text-shadow:none;
+}
+.single-portfolio .aux-container .aux-primary .aux-related-container{
+	padding-top:0;
+	padding-left:0;
+	padding-bottom:0;
+}
+
+@media screen and (min-width:1601px){
+	.single-portfolio .aux-container .aux-primary .aux-related-container {
+    padding-right: 648px;
+	}
+}
+@media screen and (max-width: 1600px) and (min-width: 1025px){
+.single-portfolio  .aux-container .aux-primary .aux-related-container {
+	margin-top:100px!important;
+
+	}}
+
+.single-portfolio  .aux-container .aux-primary .aux-related-container .entry-main{
+	display:none;
+}
+.single-portfolio .type-portfolio .entry-actions,.single-portfolio .wpulike.aux-wpulike-portfolio .wp_ulike_general_class .count-box{
+	color:#000000;
+	font-size:24px;
+	font-weight:500;
+	}
+.single-portfolio .wpulike.aux-wpulike-portfolio{
+	margin-right:60px;
+}
+.single-portfolio .type-portfolio .aux-text-color-dark .entry-meta-data dt {
+     margin-bottom:10px;
+     color:rgb(0,0,0)}
+
+.single-portfolio .aux-single .type-portfolio .entry-meta-data dd {
+	margin-bottom:32px;}
+    
+.single-portfolio .type-portfolio .entry-actions {
+     border-top: solid 1px var(--e-global-color-text);
+    border-bottom: solid 1px var(--e-global-color-text);
+    }
+
+.single-portfolio .aux-container .aux-primary .aux-related-container{
+	padding-right:0;
+}
+@media screen and (min-width: 1024px){
+	.single-portfolio .aux-widget-related-posts{
+	margin-bottom:0!important;
+	margin-top:150px;
+}
+}
+@media screen and (max-width: 1023px){
+	.single-portfolio .aux-widget-related-posts{
+	margin-bottom:0!important;
+	margin-top:50px;
+}
+}
+.single-portfolio .aux-widget-related-posts .widget-title{
+	margin-bottom:50px;
+}
+.single-portfolio .aux-media-frame.aux-media-image{
+	border-radius:25px;
+}
+@media screen and (max-width: 1023px){
+	.single-portfolio	.entry-side {
+		padding-left:0!important;
+	}
+}
+
+.aux-resp .widget-title {
+	text-align:left;
+}
+@media screen and (max-width: 320px){
+	.single-portfolio	.entry-side {
+		padding-top:0!important;
+	}
+}
+
+@media screen and (max-width: 1366px){
+	.single-portfolio .aux-content-top-margin .aux-primary {
+		padding-top:0
+	}}
+@media screen and (max-width: 1024px) and (min-width:414px){
+	.single-portfolio .entry-media {
+		margin-bottom:0
+	}}
+
+
+.single-post .aux-territory{
+	
+	max-width:1130px;
+}
+.single-post .entry-media{
+	margin-top:90px
+}
+.single-post .entry-media img{
+	border-radius:20px;
+}
+@media only screen and (min-width:768px){
+	.single-post .hentry.aux-medium-context .entry-header,.single-post .hentry.aux-medium-context .entry-info,.single-post .hentry.aux-medium-context .entry-content{
+	margin-left:0%;
+	margin-right:0%
+} 
+}
+
+.single-post .entry-info {
+	display:flex;
+	justify-content:center;
+
+}
+.single-post .entry-info .entry-date{
+	order:1;
+}
+
+
+.single-post .entry-info .entry-author{
+	order:2;	
+}
+
+
+.single-post .hentry .entry-info .entry-edit{
+	display:none
+}
+.single-post .hentry .entry-info .entry-author .meta-sep{
+	display:none
+}
+.single-post 
+.hentry .entry-info
+[class^="entry-"]:before{   
+     display:none;    
+  }
+
+.single-post .hentry .entry-info .entry-author .author:before{
+ content: "" !important;
+    position: relative;
+    top: 0;
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    margin: 0 10px;
+    vertical-align: middle;
+	background-color:var( --e-global-color-primary );
+}
+.single-post .aux-primary .hentry .entry-title {
+	margin:0 auto;
+  max-width:820px;
+  }
+
+.single-post .hentry .entry-info {
+	margin-bottom:2em ;
+}
+.single-post .entry-main{
+	margin-bottom:50px;
+}
+
+@media screen and (max-width: 767px){
+	.single-post .hentry .entry-info .entry-date :before ,.single-post .hentry .entry-info .entry-author .author:before{display:none;}
+	
+.single-post .aux-primary .hentry .entry-title {	
+  max-width:350px;
+	  }
+.single-post .hentry .entry-content {
+    margin: 45px 0px;
+}
+.single-post .hentry .entry-info{
+		margin-left:0;
+		margin-right:0;
+	}
+}
+@media only screen and (max-width: 1024px) and (min-width:768px){
+	.single-post .aux-primary .hentry .entry-title {
+		max-width:500px!important;
+		
+    }
+}
+
+.single-post .hentry .entry-meta {
+    	padding:1em 0;
+} 
+
+
+@media only screen and (max-width:767px){
+	  .single-post .hentry .entry-meta,.single-post .comment-respond{
+      width:100% ;
+    	
+}
+	
+}
+
+	
+.single-post #respond{
+	margin:0 auto;
+}
+.single-post input[type="submit"]{
+	background-color:var( --e-global-color-secondary );
+	box-shadow:0 10px 15px #FE346E4D;
+	border-radius:30px;	
+	margin-bottom:80px;
+  padding: 18px 64px!important
+}
+.single-post input[type="submit"]:hover{
+	background-color:#000000;
+	box-shadow:0 10px 15px #0000004D}
+
+.single-post #commentform textarea{
+	background-color: #ffffff;
+    border-radius: 25px;
+    border: none;
+	margin-bottom:30px;
+	box-shadow:0px 10px 30px #001AA714;
+	padding-left:25px;
+}
+.single-post #commentform input[type=text],.single-post  #commentform input[type=email],.single-post  #commentform input[type=url]{
+	background-color: #ffffff;
+    border-radius: 50px;
+    border: none;
+	margin-bottom:20px;
+	box-shadow:0px 10px 30px #001AA714;
+	width:100%;
+	padding-left:25px;
+	height:auto;
+}
+.single-post #commentform input[type=text]::placeholder,.single-post  #commentform input[type=email]::placeholder,.single-post  #commentform input[type=url]::placeholder{
+	font-style:normal;
+}
+
+.single-post .comment-form-cookies-consent{
+	display:none;
+}
+.single-post .comment-form .comment-notes{
+	margin-bottom:40px;
+}
+
+.single-post .hentry footer.entry-meta .entry-tax a:hover,.single-post .hentry .entry-info .entry-tax a:hover{
+	color:var( --e-global-color-primary );
+}
+.single-post .aux-search-form .aux-iconic-search-submit {
+	display:none;
+}
+.home .aux-burger .mid-line, .home .aux-burger:before, .home .aux-burger:after{
+	border-color:#fff!important;
+}
+		</style>
+		<style id="wpforms-css-vars-root">
+				:root {
+					--wpforms-field-border-radius: 3px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+
+				}
+			</style><!-- end wp_head -->
+</head>
+
+
+<body class="home page-template page-template-templates page-template-page-builder-content page-template-templatespage-builder-content-php page page-id-107 auxin-pro _masterslider _msp_version_3.7.0 elementor-default elementor-kit-101 elementor-page elementor-page-107 phlox-pro aux-dom-unready aux-full-width aux-resp aux-s-fhd  aux-page-animation-off _auxels"  data-framed="">
+
+
+<div id="inner-body">
+
+    <header class="aux-elementor-header aux-overlay-header" id="site-elementor-header" itemscope="itemscope" itemtype="https://schema.org/WPHeader" data-sticky-height="80"  >
+        <div class="aux-wrapper">
+            <div class="aux-header aux-header-elements-wrapper">
+            		<div data-elementor-type="header" data-elementor-id="103" class="elementor elementor-103">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-a7d2a99 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a7d2a99" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b5b6ce0" data-id="b5b6ce0" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-19c421c elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-image" data-id="19c421c" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="673" height="370" src="https://mindcircuit.in/wp-content/uploads/2020/12/3DPDF__1___1_-removebg-preview.png" class="attachment-full size-full wp-image-114" alt="" srcset="https://mindcircuit.in/wp-content/uploads/2020/12/3DPDF__1___1_-removebg-preview.png 673w, https://mindcircuit.in/wp-content/uploads/2020/12/3DPDF__1___1_-removebg-preview-200x110.png 200w" sizes="(max-width: 673px) 100vw, 673px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-50c684a elementor-widget__width-auto aux-appear-watch-animation aux-fade-in-left elementor-widget-mobile__width-auto elementor-widget elementor-widget-aux_menu_box" data-id="50c684a" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_menu_box.default">
+				<div class="elementor-widget-container">
+			<div class="aux-elementor-header-menu aux-nav-menu-element aux-nav-menu-element-50c684a"><div class="aux-burger-box" data-target-panel="overlay" data-target-content=".elementor-element-50c684a .aux-master-menu"><div class="aux-burger aux-regular-small"><span class="mid-line"></span></div></div><!-- start master menu -->
+<nav id="master-menu-elementor-50c684a" class="menu-header-menu-container">
+
+	<ul id="menu-header-menu" class="aux-master-menu aux-no-js aux-skin-classic aux-horizontal" data-type="horizontal"  data-switch-type="toggle" data-switch-parent=".elementor-element-50c684a .aux-fs-popup .aux-fs-menu" data-switch-width="1024"  >
+		<!-- start single menu -->
+		<li id="menu-item-108" class="a1i0s0 menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-107 current_page_item menu-item-108 aux-menu-depth-0 aux-menu-root-1 aux-menu-item">
+			<a href="https://mindcircuit.in/" class="aux-item-content">
+				<span class="aux-menu-label">Home</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262 aux-menu-depth-0 aux-menu-root-2 aux-menu-item">
+			<a href="https://mindcircuit.in/about-us-2/" class="aux-item-content">
+				<span class="aux-menu-label">About Us</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263 aux-menu-depth-0 aux-menu-root-3 aux-menu-item">
+			<a href="https://mindcircuit.in/our-courses/" class="aux-item-content">
+				<span class="aux-menu-label">Our Courses</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<li id="menu-item-264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264 aux-menu-depth-0 aux-menu-root-4 aux-menu-item">
+			<a href="https://mindcircuit.in/job-oriented/" class="aux-item-content">
+				<span class="aux-menu-label">Job Oriented</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265 aux-menu-depth-0 aux-menu-root-5 aux-menu-item">
+			<a href="https://mindcircuit.in/our-videos/" class="aux-item-content">
+				<span class="aux-menu-label">Our Videos</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266 aux-menu-depth-0 aux-menu-root-6 aux-menu-item">
+			<a href="https://mindcircuit.in/testimonials/" class="aux-item-content">
+				<span class="aux-menu-label">Testimonials</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267 aux-menu-depth-0 aux-menu-root-7 aux-menu-item">
+			<a href="https://mindcircuit.in/blog-2/" class="aux-item-content">
+				<span class="aux-menu-label">Blog</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268 aux-menu-depth-0 aux-menu-root-8 aux-menu-item">
+			<a href="https://mindcircuit.in/contact-us/" class="aux-item-content">
+				<span class="aux-menu-label">Contact Us</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+	</ul>
+
+</nav>
+<!-- end master menu -->
+<section class="aux-fs-popup aux-fs-menu-layout-center aux-indicator"><div class="aux-panel-close"><div class="aux-close aux-cross-symbol aux-thick-medium"></div></div><div class="aux-fs-menu" data-menu-title=""></div></section></div><style>@media only screen and (min-width: 1025px) { .elementor-element-50c684a .aux-burger-box { display: none } }</style>		</div>
+				</div>
+				<div class="elementor-element elementor-element-566f34f elementor-widget__width-auto elementor-widget elementor-widget-aux_button" data-id="566f34f" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_button.default">
+				<div class="elementor-widget-container">
+			<a  href="https://classes.mindcircuit.in" target="_self"   class="aux-button aux-medium aux-carmine-pink aux-none aux-uppercase" ><span class="aux-overlay"></span><span class="aux-text">Login</span></a>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		            </div><!-- end of header-elements -->
+        </div><!-- end of wrapper -->
+    </header><!-- end header -->
+
+    <main id="main" class="aux-main aux-territory  aux-single aux-page aux-full-container aux-content-top-margin no-sidebar aux-sidebar-style-border aux-user-entry" >
+        <div class="aux-wrapper">
+            <div class="aux-container aux-fold">
+
+                <div id="primary" class="aux-primary" >
+                    <div class="content" role="main"  >
+
+                        
+
+        
+        <article id="post-107" class="post-107 page type-page status-publish hentry">
+
+            		<div data-elementor-type="wp-page" data-elementor-id="107" class="elementor elementor-107">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-4a10daa elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4a10daa" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+					<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7d0d006" data-id="7d0d006" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-67f9e12 aux-appear-watch-animation aux-scale-up elementor-widget elementor-widget-aux_modern_heading" data-id="67f9e12" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner"><h5 class="aux-modern-heading-primary">Course </h5><h2 class="aux-modern-heading-secondary"><span class="aux-head-before">Content Highlights</span></h2></div>
+        </section>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ea8b6d9" data-id="ea8b6d9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6adb433 elementor-widget elementor-widget-bdt-accordion" data-id="6adb433" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="bdt-accordion.default">
+				<div class="elementor-widget-container">
+			        <div class="bdt-ep-accordion-container">
+            <div id="bdt-ep-accordion-6adb433" class="bdt-ep-accordion bdt-accordion" data-bdt-accordion="{&quot;collapsible&quot;:true,&quot;multiple&quot;:false,&quot;transition&quot;:&quot;ease-in-out&quot;}" data-settings="{&quot;id&quot;:&quot;bdt-ep-accordion-6adb433&quot;,&quot;activeHash&quot;:&quot;no&quot;,&quot;activeScrollspy&quot;:null,&quot;hashTopOffset&quot;:false,&quot;hashScrollspyTime&quot;:false}">
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-receive-class-recordings-immediately" data-accordion-index="0" data-title="receive-class-recordings-immediately" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                Receive Class Recordings Immediately                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>Gain access to recordings following each session.</p>                        </div>
+                    </div>
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-daily-qa-or-doubt-session" data-accordion-index="1" data-title="daily-q-amp-a-or-doubt-session" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                Daily Q&amp;A or Doubt Session                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>Get your queries addressed promptly.</p>                        </div>
+                    </div>
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-2-year-valididty-and-access" data-accordion-index="2" data-title="2-year-valididty-and-access" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                2 -Year Valididty and Access                             </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>Watch recordings at your convenience for two years</p>                        </div>
+                    </div>
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-practice-group-and-weekly-assessment" data-accordion-index="3" data-title="practice-group-and-weekly-assessment" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                Practice Group and Weekly Assessment                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>Stay engaged and assess your progress.</p>                        </div>
+                    </div>
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-batch-transfer-batch-repetition" data-accordion-index="4" data-title="batch-transfer-amp-batch-repetition" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                Batch Transfer &amp; Batch Repetition                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>Flexibility for seamless learning.</p>                        </div>
+                    </div>
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-resume-building-and-interview-preparation" data-accordion-index="5" data-title="resume-building-and-interview-preparation" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                Resume Building and Interview Preparation                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>Propel your career forward.</p>                        </div>
+                    </div>
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-naukri-linkedin-accounts-creation-support" data-accordion-index="6" data-title="naukri-amp-linkedin-accounts-creation-support" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                Naukri &amp; LinkedIn Accounts Creation Support                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>Enhance your professional presence.</p>                        </div>
+                    </div>
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-course-duration" data-accordion-index="7" data-title="course-duration" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                Course Duration                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>3.5 to 4 Months</p>                        </div>
+                    </div>
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-timings" data-accordion-index="8" data-title="timings" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                Timings                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>Monday &#8211; Friday</p>                        </div>
+                    </div>
+                                    <div class="bdt-ep-accordion-item">
+                        <div class="bdt-ep-accordion-title bdt-accordion-title bdt-flex bdt-flex-middle bdt-flex-between" id="bdt-ep-accordion-live-training" data-accordion-index="9" data-title="live-training" role="heading">
+
+                                                            <span class="bdt-ep-accordion-icon bdt-flex-align-right" aria-hidden="true">
+
+                                                                            <span class="bdt-ep-accordion-icon-closed">
+                                            <i aria-hidden="true" class="fa-fw fas fa-plus"></i>                                        </span>
+                                    
+                                                                            <span class="bdt-ep-accordion-icon-opened">
+                                            <i aria-hidden="true" class="fa-fw fas fa-minus"></i>                                        </span>
+                                    
+                                </span>
+                            
+                            <span class="bdt-ep-title-text bdt-flex bdt-flex-middle">
+
+                                                                LIve Training                            </span>
+
+                        </div>
+                        <div class="bdt-ep-accordion-content bdt-accordion-content">
+                            <p>Live Training Sessions </p>                        </div>
+                    </div>
+                            </div>
+        </div>
+		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-794c52af elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="794c52af" data-element_type="section" id="xs_tab_10" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-36662c89" data-id="36662c89" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1f4010b aux-appear-watch-animation aux-scale-up elementor-widget elementor-widget-aux_modern_heading" data-id="1f4010b" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner"><h5 class="aux-modern-heading-primary">\</h5><h2 class="aux-modern-heading-secondary"><span class="aux-head-before">JOB ORIENTED AWS DEVOPS</span></h2></div>
+        </section>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-44c4a8b3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="44c4a8b3" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-700577e9" data-id="700577e9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-136e3658 elementor-widget elementor-widget-elementskit-simple-tab" data-id="136e3658" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-simple-tab.default">
+				<div class="elementor-widget-container">
+			<div class="ekit-wid-con" >        <div class="elementkit-tab-wraper  ">
+            <ul class="nav nav-tabs elementkit-tab-nav  elementskit_tooltip_style elementskit_tooltip_style elementskit-fullwidth-tab">
+                                    <li class="elementkit-nav-item elementor-repeater-item-e7fb3c4">
+                        <a class="elementkit-nav-link  active show left-pos" id="content-e7fb3c466841d315485c-tab" data-ekit-handler-id="introduction-to-devops" data-ekit-toggle="tab" data-target="#content-e7fb3c466841d315485c" href="#Content-e7fb3c466841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-e7fb3c466841d315485c">
+                                                        <span class="elementskit-tab-title"> INTRODUCTION TO DEVOPS</span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-9077dfd">
+                        <a class="elementkit-nav-link  left-pos" id="content-9077dfd66841d315485c-tab" data-ekit-handler-id="git-" data-ekit-toggle="tab" data-target="#content-9077dfd66841d315485c" href="#Content-9077dfd66841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-9077dfd66841d315485c">
+                                                        <span class="elementskit-tab-title"> GIT </span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-00f52ae">
+                        <a class="elementkit-nav-link  left-pos" id="content-00f52ae66841d315485c-tab" data-ekit-handler-id="jenkins-ci-cd-" data-ekit-toggle="tab" data-target="#content-00f52ae66841d315485c" href="#Content-00f52ae66841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-00f52ae66841d315485c">
+                                                        <span class="elementskit-tab-title"> JENKINS (CI/CD) </span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-ad34ed5">
+                        <a class="elementkit-nav-link  left-pos" id="content-ad34ed566841d315485c-tab" data-ekit-handler-id="kubernetes-" data-ekit-toggle="tab" data-target="#content-ad34ed566841d315485c" href="#Content-ad34ed566841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-ad34ed566841d315485c">
+                                                        <span class="elementskit-tab-title"> Kubernetes </span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-e39c40a">
+                        <a class="elementkit-nav-link  left-pos" id="content-e39c40a66841d315485c-tab" data-ekit-handler-id="docker-" data-ekit-toggle="tab" data-target="#content-e39c40a66841d315485c" href="#Content-e39c40a66841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-e39c40a66841d315485c">
+                                                        <span class="elementskit-tab-title"> DOCKER  </span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-8b97c0c">
+                        <a class="elementkit-nav-link  left-pos" id="content-8b97c0c66841d315485c-tab" data-ekit-handler-id="aws-" data-ekit-toggle="tab" data-target="#content-8b97c0c66841d315485c" href="#Content-8b97c0c66841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-8b97c0c66841d315485c">
+                                                        <span class="elementskit-tab-title"> AWS </span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-7b5aa08">
+                        <a class="elementkit-nav-link  left-pos" id="content-7b5aa0866841d315485c-tab" data-ekit-handler-id="terraform-" data-ekit-toggle="tab" data-target="#content-7b5aa0866841d315485c" href="#Content-7b5aa0866841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-7b5aa0866841d315485c">
+                                                        <span class="elementskit-tab-title"> TERRAFORM </span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-7cae260">
+                        <a class="elementkit-nav-link  left-pos" id="content-7cae26066841d315485c-tab" data-ekit-handler-id="maven" data-ekit-toggle="tab" data-target="#content-7cae26066841d315485c" href="#Content-7cae26066841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-7cae26066841d315485c">
+                                                        <span class="elementskit-tab-title"> MAVEN</span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-622bdcc">
+                        <a class="elementkit-nav-link  left-pos" id="content-622bdcc66841d315485c-tab" data-ekit-handler-id="tomcat-" data-ekit-toggle="tab" data-target="#content-622bdcc66841d315485c" href="#Content-622bdcc66841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-622bdcc66841d315485c">
+                                                        <span class="elementskit-tab-title"> TOMCAT   </span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-f27f25d">
+                        <a class="elementkit-nav-link  left-pos" id="content-f27f25d66841d315485c-tab" data-ekit-handler-id="linux-" data-ekit-toggle="tab" data-target="#content-f27f25d66841d315485c" href="#Content-f27f25d66841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-f27f25d66841d315485c">
+                                                        <span class="elementskit-tab-title"> LINUX    </span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-2aa95d7">
+                        <a class="elementkit-nav-link  left-pos" id="content-2aa95d766841d315485c-tab" data-ekit-handler-id="sonarqube" data-ekit-toggle="tab" data-target="#content-2aa95d766841d315485c" href="#Content-2aa95d766841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-2aa95d766841d315485c">
+                                                        <span class="elementskit-tab-title"> SonarQube</span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-c71fb03">
+                        <a class="elementkit-nav-link  left-pos" id="content-c71fb0366841d315485c-tab" data-ekit-handler-id="ansible-" data-ekit-toggle="tab" data-target="#content-c71fb0366841d315485c" href="#Content-c71fb0366841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-c71fb0366841d315485c">
+                                                        <span class="elementskit-tab-title"> ANSIBLE </span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-63ce0d1">
+                        <a class="elementkit-nav-link  left-pos" id="content-63ce0d166841d315485c-tab" data-ekit-handler-id="argocd-" data-ekit-toggle="tab" data-target="#content-63ce0d166841d315485c" href="#Content-63ce0d166841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-63ce0d166841d315485c">
+                                                        <span class="elementskit-tab-title"> ARGOCD	</span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-9773486">
+                        <a class="elementkit-nav-link  left-pos" id="content-977348666841d315485c-tab" data-ekit-handler-id="scripting-languages" data-ekit-toggle="tab" data-target="#content-977348666841d315485c" href="#Content-977348666841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-977348666841d315485c">
+                                                        <span class="elementskit-tab-title"> Scripting Languages</span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-50f825a">
+                        <a class="elementkit-nav-link  left-pos" id="content-50f825a66841d315485c-tab" data-ekit-handler-id="aws-and-devops-projects" data-ekit-toggle="tab" data-target="#content-50f825a66841d315485c" href="#Content-50f825a66841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-50f825a66841d315485c">
+                                                        <span class="elementskit-tab-title"> AWS and DEVOPS PROJECTS</span>
+                        </a>
+                    </li>
+                                        <li class="elementkit-nav-item elementor-repeater-item-f408e19">
+                        <a class="elementkit-nav-link  left-pos" id="content-f408e1966841d315485c-tab" data-ekit-handler-id="monitoring-tools" data-ekit-toggle="tab" data-target="#content-f408e1966841d315485c" href="#Content-f408e1966841d315485c"
+                            data-ekit-toggle-trigger="mouseenter"
+                            aria-describedby="Content-f408e1966841d315485c">
+                                                        <span class="elementskit-tab-title"> Monitoring Tools</span>
+                        </a>
+                    </li>
+                                </ul>
+
+            <div class="tab-content elementkit-tab-content">
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-e7fb3c4  active show" id="content-e7fb3c466841d315485c" role="tabpanel"
+                         aria-labelledby="content-e7fb3c466841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <ol><li><strong>What is DevOps?</strong></li><li><strong>History of DevOps</strong></li><li><strong>What is Dev and Ops</strong></li><li><strong>DevOps Definition</strong></li><li><strong>DevOps and Software Development</strong><br /><strong>Life Cycle</strong></li><li><strong>Build and Release Workflow</strong></li><li><strong>Devops Main Objectives</strong></li></ol>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-9077dfd " id="content-9077dfd66841d315485c" role="tabpanel"
+                         aria-labelledby="content-9077dfd66841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>What is GIT?</strong><br /><strong>Installing Git and Basic Git Commands Overview</strong><br /><strong>Diff b/w Git and GItHub</strong><br /><strong>Diff b/w Git and SVN</strong><br /><strong>Git stages</strong><br /><strong>Git Branches </strong><br /><strong>Git Branching strategy </strong><br /><strong>Git merge and Git rebase</strong><br /><strong>Baisc Linux commands for Git Practice </strong><br /><strong>Git Repository Setup</strong><br /><strong>Git push, pull and fetch</strong><br /><strong>Git Stash</strong><br /><strong>Git Conflicts</strong><br /><strong>Git Tags</strong><br /><strong>Git Revert</strong><br /><strong>Git cherry pick</strong><br /><strong>How to use GitHub </strong><br /><strong>Pull request </strong><br /><strong>Git webhook</strong><br /><strong>Protecting GitHub Branches&#8230;etc.</strong></p>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-00f52ae " id="content-00f52ae66841d315485c" role="tabpanel"
+                         aria-labelledby="content-00f52ae66841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>What is CI/CD </strong><br /><strong>Introduction to Jenkins </strong><br /><strong>History of Jenkins/Hudson</strong><br /><strong>Jenkins Installation and configuration</strong><br /><strong>How to create Jobs</strong><br /><strong>Diff types of jobs </strong><br /><strong>Integration of GitHub &amp; Jenkins</strong><br /><strong>Working with Build tools </strong><br /><strong>Build from GitHub Project</strong><br /><strong>Managing Remote Systems with Jenkins </strong><br /><strong>Parameterized Jenkins Builds </strong><br /><strong>Securing Jenkins</strong><br /><strong>How to install plugins in Jenkins </strong><br /><strong>Scheduling Builds</strong><br /><strong>Setting up Different Types of Automated Builds </strong><br /><strong>How to configure one job to another job </strong><br /><strong>Upstream and downstream jobs</strong><br /><strong>Configure Global Security </strong><br /><strong>Jenkins Administration</strong><br /><strong>How to create maven type job</strong><br /><strong>Jenkins pipeline syntax and structure-deepdive</strong><br /><strong>Jenkins pipeline by using script and plugins</strong><br /><strong>Working with Jenkinsfile and declarative pipeline-deepdive</strong><br /><strong>Jenkins Backup</strong><br /><strong>How to deploy code in servers</strong><br /><strong>Authentication and Authorization </strong><br /><strong>How to create Nodes in diff Servers</strong><br /><strong>Master-slave configuration in jenkins </strong><br /><strong>Blue ocean plugin</strong><br /><strong>Useful plugins in Jenkins</strong><br /><strong>Sonarqube Installation &amp; Configuration</strong><br /><strong>Integration of sonar with Jenkins</strong><br /><strong>Nexus Installation &amp; Configuration</strong><br /><strong>Integration of nexus with Jenkin</strong></p>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-ad34ed5 " id="content-ad34ed566841d315485c" role="tabpanel"
+                         aria-labelledby="content-ad34ed566841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>What is Kubernetes </strong><br /><strong>Basics of Kubernetes </strong><br /><strong>container Orchestration </strong><br /><strong>Diff b/w Kubernetes and docker/docker swarm </strong><br /><strong>Kubernetes Architecture-deep dive</strong><br /><strong>Installation and configuration of Kubernetes cluster </strong><br /><strong>EKS cluster creation</strong><br /><strong>Deploying apps on the cluster and scaling it</strong><br /><strong>Pods,Replica sets,Deployments,Services,Volumes,Namespaces</strong><br /><strong>Resource Requirement </strong><br /><strong>Multi-Container Pods </strong><br /><strong>Kubernetes Deployment Strategies</strong><br /><strong>Security Contexts</strong><br /><strong>K8s manifest file-deep dive</strong><br /><strong>K8s Ingress resources, Ingress controllers</strong><br /><strong>Secretes vs configmap</strong><br /><strong>K8s troubleshooting </strong><br /><strong>Scheduling the applications on the container</strong><br /><strong>EKS Cluster Upgradation </strong><br /><strong>K8s mini project</strong><br /><strong>k8s- microservices mini project</strong></p>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-e39c40a " id="content-e39c40a66841d315485c" role="tabpanel"
+                         aria-labelledby="content-e39c40a66841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>Learning the Basics of Docker </strong><br /><strong>Introduction to Docker </strong><br /><strong>Containers vs Virtual Machines </strong><br /><strong>Docker Architecture-deep dive</strong><br /><strong>Docker Installation</strong><br /><strong>Docker commands-deep dive</strong><br /><strong>Working with Multiple Images</strong><br /><strong>Packaging a Customized Container </strong><br /><strong>Running Container Commands with Docker </strong><br /><strong>Creating Docker-hub account and managing Docker images</strong><br /><strong>Managing and Removing Base Images </strong><br /><strong>Creating Shared volume groups </strong><br /><strong>Create own images</strong><br /><strong>Creating own docker files Docker Events</strong><br /><strong>Pushing images to Docker Hub</strong><br /><strong>Docker volumes</strong><br /><strong>Dockerfile-deep dive</strong><br /><strong>Docker web-applications </strong><br /><strong>Docker Networking </strong><br /><strong>Volume management </strong><br /><strong>Docker Compose</strong><br /><strong>WordPress implementation using docker compose</strong><br /><strong>Multistage Dockerfile-deep dive</strong><br /><strong>Trivy (docker image scan)</strong></p>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-8b97c0c " id="content-8b97c0c66841d315485c" role="tabpanel"
+                         aria-labelledby="content-8b97c0c66841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>Introduction to cloud computing</strong><br /><strong>Essential Characteristics of Cloud Computing </strong><br /><strong>Service Models in Cloud computing </strong><br /><strong>Introduction to AWS</strong><br /><strong>AWS Account creation &amp; free tier limitations overview</strong><br /><strong>EC2 Instance Launch Wizard &amp; Instance Types</strong><br /><strong>Generating custom Public Key and Private keys for EC2 instances </strong><br /><strong>Security groups vs NACL</strong><br /><strong>Volumes and Snapshots</strong><br /><strong>Creating customized Amazon Machine Images </strong><br /><strong>Elastic Load Balancers &amp; Health Checks</strong><br /><strong>Auto Scaling Groups EBS</strong><br /><strong>Cloud Watch</strong><br /><strong>Creating Billing Alarm,Simple Notification Service and EC2 instance alarms. </strong><br /><strong>Elastic File System</strong><br /><strong>S3–deep dive</strong><br /><strong>VPC (Virtual Private Cloud)</strong><br /><strong>Networking Basics</strong><br /><strong>Creating custom VPCs and custom Subnets </strong><br /><strong>Route Tables &amp; IGW</strong><br /><strong>Elastic IP, NAT gateway</strong><br /><strong>Route-53 </strong><br /><strong>ENI</strong><br /><strong>AWS certificate manager(ACM)</strong><br /><strong>Cloud front</strong><br /><strong>Launching a RDS Instances (MySQL, MSSQL &amp; Aurora) </strong><br /><strong>Identity Access Management:Root Account Vs IAM user </strong><br /><strong>IAM Password Policies</strong><br /><strong>Creating Customer Managed Policies</strong><br /><strong>Groups,Roles</strong></p>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-7b5aa08 " id="content-7b5aa0866841d315485c" role="tabpanel"
+                         aria-labelledby="content-7b5aa0866841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>Introduction to Terraform</strong><br /><strong>Terraform vs Ansible</strong><br /><strong>Terraform Architecture</strong><br /><strong>Terraform installation and configuration</strong><br /><strong>Terraform Configuration</strong><br /><strong>Terraform Common Commands</strong><br /><strong>Terraform modules, variables </strong><br /><strong>Terraform workflow</strong><br /><strong>Terraform workspace</strong><br /><strong>Managing Terraform Resources</strong><br /><strong>Terraform State file management </strong><br /><strong>Terraform provisioners</strong><br /><strong>Terraform Project</strong></p>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-7cae260 " id="content-7cae26066841d315485c" role="tabpanel"
+                         aria-labelledby="content-7cae26066841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>Over view of Maven </strong><br /><strong>Diff b/w Maven and Ant</strong><br /><strong>How to install Maven</strong><br /><strong>Maven life cycle and maven Phases</strong><br /><strong>Maven repositories</strong><br /><strong>How to create. Jar, .war and .ear files</strong><br /><strong>How to add dependency, properties and plugins Sample Maven Projects</strong><br /><strong>How to Deploy Executable files in Application Servers</strong></p>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-622bdcc " id="content-622bdcc66841d315485c" role="tabpanel"
+                         aria-labelledby="content-622bdcc66841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>What is Tomcat</strong><br /><strong>How to install Tomcat in windows </strong><br /><strong>How to install Tomcat in Linux / AWS </strong><br /><strong>How to deploy code in Tomcat </strong><br /><strong>Deploying code by using Jenkins</strong></p>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-f27f25d " id="content-f27f25d66841d315485c" role="tabpanel"
+                         aria-labelledby="content-f27f25d66841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>All basics of Linux</strong><br /><strong>How to create files, dir, and groups</strong><br /><strong>How to change permissions of files, dir, and groups How to create users </strong><br /><strong>Ssh</strong><br /><strong>Scp </strong><br /><strong>WinSCP </strong><br /><strong>Crontab</strong><br /><strong>ssh Password less authentication </strong><br /><strong>Working with services</strong><br /><strong>Most use full commands like cp, mv, tar, yum, rpm, wget, rm, find, vim, cat, touch etc.…</strong><br /><strong>Shell scripting</strong></p>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-2aa95d7 " id="content-2aa95d766841d315485c" role="tabpanel"
+                         aria-labelledby="content-2aa95d766841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>What is SonarQube?</strong><br /><strong>Installation and Setup</strong><br /><strong>Configuring and Using SonarQube</strong><br /><strong>Starting and accessing the SonarQube server</strong><br /><strong>Integrating SonarQube with build tools (Maven, Jenkins, etc.)</strong></p>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-c71fb03 " id="content-c71fb0366841d315485c" role="tabpanel"
+                         aria-labelledby="content-c71fb0366841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>What is Ansible</strong><br /><strong>Ansible &amp; its features </strong><br /><strong>How to setup Ansible</strong><br /><strong>Understanding Ansible architecture &amp; Execution </strong><br /><strong>Ansible documentation</strong><br /><strong>Ansible ad-hoc commands deep dive</strong><br /><strong>Installing packages by using Ansible </strong><br /><strong>Ansible Modules </strong><br /><strong>Writing ansible playbook-deep dive</strong><br /><strong>Ansible Roles</strong></p>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-63ce0d1 " id="content-63ce0d166841d315485c" role="tabpanel"
+                         aria-labelledby="content-63ce0d166841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>What is Argo CD?</strong><br /><strong>Introduction to Argo CD</strong><br /><strong>Overview of Continuous Delivery</strong><br /><strong>Installation and Setup</strong><br /><strong>CD miniproject with argocd and k8s</strong><br /><strong>Ultimate CI-CD with Git,Jenkins , Maven ,Sonar, Docker , Kubernetes (EKS) &amp; ARGOCD</strong></p>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-9773486 " id="content-977348666841d315485c" role="tabpanel"
+                         aria-labelledby="content-977348666841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>Introduction to Scripting in DevOps</strong><br /><strong>Basics of Shell Scripting</strong><br /><strong>Writing your first shell script</strong><br /><strong>Shell script execution and permissions</strong><br /><strong>Variables and user input in shell scripts</strong><br /><strong>shell scripting with real time scenarios</strong><br /><strong>Introduction to Python</strong><br /><strong>Python basics: syntax, variables, data types</strong><br /><strong>Control structures: conditionals and loops</strong><br /><strong>Functions and modules</strong><br /><strong>Working with Data in Python</strong></p>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-50f825a " id="content-50f825a66841d315485c" role="tabpanel"
+                         aria-labelledby="content-50f825a66841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>VPC-mini project</strong><br /><strong>AWS 2-Tier project </strong><br /><strong>end-end AWS 3-tier project with multiple aws services ( CloudFront, Route 53,EC2,Autoscaling,Certificate Manager,Backup service,RDS,VPC,WAF,CloudWatch ) </strong><br /><strong>K8S micro services project</strong><br /><strong>Provisioning Cloud Infrastucture using Terraform </strong><br /><strong>Ultimate CI-CD with Git,Jenkins ,Maven ,Sonar, Docker , Kubernetes(EKS) &amp; ARGOCD</strong><br /><strong>End-End Terraform CI-CD with Jenkins ,Maven , sonar,Docker ,Trivy, Ansible &amp; EKs </strong><br /><strong>multiple adhoc mini projects / Day to day activities &amp; taks &#8230;many more</strong></p>                        </div>
+                    </div>
+                                    <div class="tab-pane elementkit-tab-pane elementor-repeater-item-f408e19 " id="content-f408e1966841d315485c" role="tabpanel"
+                         aria-labelledby="content-f408e1966841d315485c-tab">
+                        <div class="animated fadeIn">
+                            <p><strong>Nagios</strong><br /><strong>Cloud watch (AWS)</strong><br /><strong>Prometheus</strong><br /><strong>Grafana</strong><br /><strong>Overview of jira &amp; servicenow</strong></p>                        </div>
+                    </div>
+                            </div>
+        </div>
+    </div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-796cb8f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="796cb8f" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8647c51" data-id="8647c51" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8e28bf9 aux-appear-watch-animation aux-scale-down elementor-widget elementor-widget-aux_modern_heading" data-id="8e28bf9" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner"><h5 class="aux-modern-heading-primary">Youtube Channel</h5><h2 class="aux-modern-heading-secondary"><span class="aux-head-before">Our Videos</span></h2></div>
+        </section>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-148c186 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="148c186" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c097e2f" data-id="c097e2f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7217866 elementor-widget elementor-widget-video" data-id="7217866" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/youtu.be\/_g2tYyclJ64?si=kAiprb0B2nrFxcLK&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-34f50f5" data-id="34f50f5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6465b8d elementor-widget elementor-widget-video" data-id="6465b8d" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/youtu.be\/HwUVuLVzsqg?si=aAotdX9X-RxC65UG&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="aux-parallax-section elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0ad0d11" data-id="0ad0d11" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-397d53a elementor-widget elementor-widget-video" data-id="397d53a" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/youtu.be\/l-LB5RYSr7k?si=kgPAqHTWJlSwPGVR&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-a77f91e elementor-widget__width-initial aux-appear-watch-animation aux-fade-in-right elementor-widget elementor-widget-aux_modern_button" data-id="a77f91e" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_modern_button.default">
+				<div class="elementor-widget-container">
+			    <div class="aux-modern-button-wrapper aux-modern-button-align-center" >
+                    <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon-" href="https://mindcircuit.in/our-videos/">
+                <div class="aux-overlay"></div>
+                                    <div class="aux-icon ">
+                                            </div>
+                                <div class="aux-text">
+<span class="aux-text-before">Our Channel</span>                </div>
+            </a>
+            
+    </div>
+
+    		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-13960cb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="13960cb" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-df033eb" data-id="df033eb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-55874d2 aux-appear-watch-animation aux-scale-down elementor-widget elementor-widget-aux_modern_heading" data-id="55874d2" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner"><h5 class="aux-modern-heading-primary">Testimonial</h5><h2 class="aux-modern-heading-secondary"><span class="aux-head-before">What People Say</span></h2></div>
+        </section>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d681c49 elementor-arrows-position-inside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="d681c49" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;5&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/Yashwanth-b9.jpeg" alt="Yashwanth b9" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/vijender.jpeg" alt="vijender" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/shiva-krishnateja.jpeg" alt="shiva krishnateja" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/Saleem-b5.jpeg" alt="Saleem b5" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="5 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/Priyanka-b5.jpeg" alt="Priyanka b5" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="6 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/pathan-b8.jpeg" alt="pathan b8" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="7 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/nishita-us.jpeg" alt="nishita us" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="8 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/m-g-dinesh-b10.jpeg" alt="m g dinesh b10" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="9 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/jyothi-vinnutas-mother.jpeg.jpeg" alt="jyothi-vinnutas mother.jpeg" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="10 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/Jayashree-b9.jpeg" alt="Jayashree b9" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="11 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/chaitanya-kolachina.jpeg" alt="chaitanya kolachina" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="12 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/Deepak-b5.jpeg" alt="Deepak b5" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="13 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/bharat-chandra.jpeg" alt="bharat chandra" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="14 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/benna-b8.jpeg" alt="benna-b8" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="15 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/ananta-uk.jpeg" alt="ananta uk" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="16 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/Amardeep-B5.jpeg" alt="Amardeep B5" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="17 of 17"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://mindcircuit.in/wp-content/uploads/2024/01/abhiram-kosaraju.jpeg" alt="abhiram kosaraju" /></figure></div>			</div>
+												<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
+						<i aria-hidden="true" class="eicon-chevron-left"></i>					</div>
+					<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
+						<i aria-hidden="true" class="eicon-chevron-right"></i>					</div>
+				
+									<div class="swiper-pagination"></div>
+									</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-e0a0eb2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e0a0eb2" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-475f2d7" data-id="475f2d7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5a2399f aux-appear-watch-animation aux-scale-down elementor-widget elementor-widget-aux_modern_heading" data-id="5a2399f" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner"><h5 class="aux-modern-heading-primary">Blog</h5><h2 class="aux-modern-heading-secondary"><span class="aux-head-before">latest Posts</span></h2></div>
+        </section>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2e43274 elementor-widget__width-auto elementor-widget elementor-widget-aux_modern_button" data-id="2e43274" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_modern_button.default">
+				<div class="elementor-widget-container">
+			    <div class="aux-modern-button-wrapper aux-modern-button-align-left" >
+                    <a class="aux-modern-button aux-black aux-modern-button-md aux-modern-button-normal aux-modern-button-default aux-icon-" href="https://mindcircuit.in/blog-2/">
+                <div class="aux-overlay"></div>
+                                    <div class="aux-icon ">
+                                            </div>
+                                <div class="aux-text">
+<span class="aux-text-before">Read More</span>                </div>
+            </a>
+            
+    </div>
+
+    		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		
+        </article> <!-- end article -->
+        <div class="clear"></div>
+
+        
+        
+
+<!-- You can start editing here. -->
+
+
+    
+
+
+
+
+                    </div><!-- end content -->
+                </div><!-- end primary -->
+
+                
+            </div><!-- end container -->
+        </div><!-- end wrapper -->
+    </main><!-- end main -->
+
+    <footer class="aux-elementor-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo"  >
+        <div class="aux-wrapper">
+        		<div data-elementor-type="footer" data-elementor-id="102" class="elementor elementor-102">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-9e49dd7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9e49dd7" data-element_type="section" data-settings="{&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6b925f7 aux-appear-watch-animation aux-fade-in-up-1" data-id="6b925f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-e61f548 elementor-widget__width-auto elementor-widget elementor-widget-aux_simple_svg" data-id="e61f548" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_simple_svg.default">
+				<div class="elementor-widget-container">
+			    <div class="aux-widget-container aux-simple-svg-container">
+        <div class="aux-widget-container-inner">
+            <div class="aux-the-svg"><img src="https://mindcircuit.in/wp-content/uploads/2020/12/pattern-left.svg" title="demo-attachment-249-pattern-left" alt="demo-attachment-249-pattern-left" loading="lazy" /></div>
+        </div>
+    </div>
+    		</div>
+				</div>
+				<div class="elementor-element elementor-element-0a043a9 elementor-widget__width-auto elementor-widget elementor-widget-aux_simple_svg" data-id="0a043a9" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_simple_svg.default">
+				<div class="elementor-widget-container">
+			    <div class="aux-widget-container aux-simple-svg-container">
+        <div class="aux-widget-container-inner">
+            <div class="aux-the-svg"><img src="https://mindcircuit.in/wp-content/uploads/2020/12/pattern-right.svg" title="demo-attachment-264-pattern-right" alt="demo-attachment-264-pattern-right" loading="lazy" /></div>
+        </div>
+    </div>
+    		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-7538fc0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7538fc0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-bb92076" data-id="bb92076" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3f9ff87 aux-appear-watch-animation aux-scale-down elementor-widget elementor-widget-aux_modern_heading" data-id="3f9ff87" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_modern_heading.default">
+				<div class="elementor-widget-container">
+			<section class="aux-widget-modern-heading">
+            <div class="aux-widget-inner"><h2 class="aux-modern-heading-primary">Subscribe Newsletter &amp; get company news</h2></div>
+        </section>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a831c1e elementor-widget__width-auto aux-appear-watch-animation aux-fade-in-up elementor-widget elementor-widget-aux_mailchimp" data-id="a831c1e" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_mailchimp.default">
+				<div class="elementor-widget-container">
+			<script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.9.10 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-100" method="post" data-id="100" data-name="" ><div class="mc4wp-form-fields"><p>
+	<label> 
+		<input type="email" name="EMAIL" placeholder="Enter Your Email Address" required />
+</label>
+</p>
+
+<p>
+	<input type="submit" value="Subscribe" />
+</p></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1719934257" /><input type="hidden" name="_mc4wp_form_id" value="100" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin -->		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c48615f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c48615f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d0d8d0e" data-id="d0d8d0e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-16575d0 elementor-widget elementor-widget-image" data-id="16575d0" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img fetchpriority="high" width="673" height="370" src="https://mindcircuit.in/wp-content/uploads/2020/12/3DPDF__1___1_-removebg-preview.png" class="attachment-full size-full wp-image-114" alt="" srcset="https://mindcircuit.in/wp-content/uploads/2020/12/3DPDF__1___1_-removebg-preview.png 673w, https://mindcircuit.in/wp-content/uploads/2020/12/3DPDF__1___1_-removebg-preview-200x110.png 200w" sizes="(max-width: 673px) 100vw, 673px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-ec96177 aux-appear-watch-animation aux-fade-in elementor-widget elementor-widget-aux_menu_box" data-id="ec96177" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_menu_box.default">
+				<div class="elementor-widget-container">
+			<div class="aux-elementor-header-menu aux-nav-menu-element aux-nav-menu-element-ec96177"><div class="aux-burger-box" data-target-panel="toggle-bar" data-target-content=".elementor-element-ec96177 .aux-master-menu"><div class="aux-burger aux-lite-small"><span class="mid-line"></span></div></div><!-- start master menu -->
+<nav id="master-menu-elementor-ec96177" class="menu-header-menu-container">
+
+	<ul id="menu-header-menu-1" class="aux-master-menu aux-no-js aux-skin-classic aux-horizontal" data-type="horizontal"  data-switch-type="toggle" data-switch-parent=".elementor-element-ec96177 .aux-toggle-menu-bar" data-switch-width="custom"  >
+		<!-- start single menu -->
+		<li class="a1i0s0 menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-107 current_page_item menu-item-108 aux-menu-depth-0 aux-menu-root-1 aux-menu-item">
+			<a href="https://mindcircuit.in/" class="aux-item-content">
+				<span class="aux-menu-label">Home</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262 aux-menu-depth-0 aux-menu-root-2 aux-menu-item">
+			<a href="https://mindcircuit.in/about-us-2/" class="aux-item-content">
+				<span class="aux-menu-label">About Us</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263 aux-menu-depth-0 aux-menu-root-3 aux-menu-item">
+			<a href="https://mindcircuit.in/our-courses/" class="aux-item-content">
+				<span class="aux-menu-label">Our Courses</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264 aux-menu-depth-0 aux-menu-root-4 aux-menu-item">
+			<a href="https://mindcircuit.in/job-oriented/" class="aux-item-content">
+				<span class="aux-menu-label">Job Oriented</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265 aux-menu-depth-0 aux-menu-root-5 aux-menu-item">
+			<a href="https://mindcircuit.in/our-videos/" class="aux-item-content">
+				<span class="aux-menu-label">Our Videos</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266 aux-menu-depth-0 aux-menu-root-6 aux-menu-item">
+			<a href="https://mindcircuit.in/testimonials/" class="aux-item-content">
+				<span class="aux-menu-label">Testimonials</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-267 aux-menu-depth-0 aux-menu-root-7 aux-menu-item">
+			<a href="https://mindcircuit.in/blog-2/" class="aux-item-content">
+				<span class="aux-menu-label">Blog</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+		<!-- start single menu -->
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268 aux-menu-depth-0 aux-menu-root-8 aux-menu-item">
+			<a href="https://mindcircuit.in/contact-us/" class="aux-item-content">
+				<span class="aux-menu-label">Contact Us</span>
+			</a>
+		</li>
+		<!-- end single menu -->
+	</ul>
+
+</nav>
+<!-- end master menu -->
+<div class="aux-toggle-menu-bar"></div></div><style>@media only screen and (min-width: 1px) { .elementor-element-ec96177 .aux-burger-box { display: none } }</style>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a59180e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a59180e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="aux-parallax-section elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1c66f4d" data-id="1c66f4d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a3d4974 elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-widget elementor-widget-aux_copyright" data-id="a3d4974" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="aux_copyright.default">
+				<div class="elementor-widget-container">
+			<small>&copy; 2024 Mind Circuit. All rights reserved. Design & Develop By Tech Webbed</small>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ea4889a elementor-widget__width-auto elementor-widget-mobile__width-inherit elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="ea4889a" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-1ead8ca" href="https://youtube.com/@madhukiran_mindcircuit?si=266HYv9NOT0eaK0e" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<i class="fab fa-youtube"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-1109a25" href="https://www.instagram.com/madhukiran_devops?utm_source=qr&#038;igsh=MWFwN2JiZjdwcGs3Ng==" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</span>
+					</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		        </div><!-- end of wrapper -->
+    </footer><!-- end footer -->
+
+</div><!--! end of #inner-body -->
+
+    <div class="aux-hidden-blocks">
+
+        <section id="offmenu" class="aux-offcanvas-menu aux-pin-left" >
+            <div class="aux-panel-close">
+                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+            </div>
+            <div class="offcanvas-header">
+            </div>
+            <div class="offcanvas-content">
+            </div>
+            <div class="offcanvas-footer">
+            </div>
+        </section>
+        <!-- offcanvas section -->
+
+        <section id="offcart" class="aux-offcanvas-menu aux-offcanvas-cart aux-pin-left" >
+            <div class="aux-panel-close">
+                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+            </div>
+            <div class="offcanvas-header">
+                Shopping Basket            </div>
+            <div class="aux-cart-wrapper aux-elegant-cart aux-offcart-content">
+            </div>
+        </section>
+        <!-- cartcanvas section -->
+
+                <section id="fs-menu-search" class="aux-fs-popup  aux-fs-menu-layout-center aux-indicator">
+            <div class="aux-panel-close">
+                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+            </div>
+            <div class="aux-fs-menu">
+                        </div>
+            <div class="aux-fs-search">
+                <div  class="aux-search-section ">
+                <div  class="aux-search-form ">
+            <form action="https://mindcircuit.in/" method="get" >
+            <div class="aux-search-input-form">
+                            <input type="text" class="aux-search-field"  placeholder="Type here.." name="s" autocomplete="off" />
+                                    </div>
+                            <input type="submit" class="aux-black aux-search-submit aux-uppercase" value="Search" >
+                        </form>
+        </div><!-- end searchform -->
+                </div>
+
+            </div>
+        </section>
+        <!-- fullscreen search and menu -->
+                <section id="fs-search" class="aux-fs-popup aux-search-overlay  has-ajax-form">
+            <div class="aux-panel-close">
+                <div class="aux-close aux-cross-symbol aux-thick-medium"></div>
+            </div>
+            <div class="aux-search-field">
+
+            <div  class="aux-search-section aux-404-search">
+                <div  class="aux-search-form aux-iconic-search">
+            <form action="https://mindcircuit.in/" method="get" >
+            <div class="aux-search-input-form">
+                            <input type="text" class="aux-search-field"  placeholder="Search..." name="s" autocomplete="off" />
+                                    </div>
+                            <div class="aux-submit-icon-container auxicon-search-4 ">
+                    <input type="submit" class="aux-iconic-search-submit" value="Search" >
+                </div>
+                        </form>
+        </div><!-- end searchform -->
+                </div>
+
+            </div>
+        </section>
+        <!-- fullscreen search-->
+
+        <div class="aux-scroll-top"></div>
+    </div>
+
+    <div class="aux-goto-top-btn aux-align-btn-right" data-animate-scroll="1"><div class="aux-hover-slide aux-arrow-nav aux-round aux-outline">    <span class="aux-overlay"></span>    <span class="aux-svg-arrow aux-h-small-up"></span>    <span class="aux-hover-arrow aux-svg-arrow aux-h-small-up aux-white"></span></div></div>
+<!-- outputs by wp_footer -->
+<script>(function() {function maybePrefixUrlField () {
+  const value = this.value.trim()
+  if (value !== '' && value.indexOf('http') !== 0) {
+    this.value = 'http://' + value
+  }
+}
+
+const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
+for (let j = 0; j < urlFields.length; j++) {
+  urlFields[j].addEventListener('blur', maybePrefixUrlField)
+}
+})();</script><link rel='stylesheet' id='ep-accordion-css' href='https://mindcircuit.in/wp-content/plugins/bdthemes-element-pack/assets/css/ep-accordion.css?ver=7.4.0' media='all' />
+<link rel='stylesheet' id='ekit-particles-css' href='https://mindcircuit.in/wp-content/plugins/elementskit/modules/particles/assets/css/particles.css?ver=3.6.1' media='all' />
+<script src="https://mindcircuit.in/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script src="https://mindcircuit.in/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
+<script src="https://mindcircuit.in/wp-content/themes/phlox-pro/js/plugins.min.js?ver=5.15.0" id="auxin-plugins-js"></script>
+<script src="https://mindcircuit.in/wp-content/themes/phlox-pro/js/scripts.min.js?ver=5.15.0" id="auxin-scripts-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/masterslider/public/assets/js/jquery.easing.min.js?ver=3.7.0" id="jquery-easing-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/masterslider/public/assets/js/masterslider.min.js?ver=3.7.0" id="masterslider-core-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/auxin-elements/admin/assets/js/elementor/widgets.js?ver=2.15.2" id="auxin-elementor-widgets-js"></script>
+<script id="mediaelement-core-js-before">
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script src="https://mindcircuit.in/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.17" id="mediaelement-core-js"></script>
+<script src="https://mindcircuit.in/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.5.5" id="mediaelement-migrate-js"></script>
+<script id="mediaelement-js-extra">
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"auto","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+</script>
+<script src="https://mindcircuit.in/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=6.5.5" id="wp-mediaelement-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/auxin-elements/public/assets/js/plugins.min.js?ver=2.15.2" id="auxin-elements-plugins-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/auxin-elements/public/assets/js/scripts.js?ver=2.15.2" id="auxin-elements-scripts-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1" id="jquery-numerator-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/auxin-pro-tools/public/assets/js/pro-tools.js?ver=1.9.1" id="auxin-pro-tools-pro-js"></script>
+<script id="auxin-portfolio-portfolio-js-extra">
+var auxpfo = {"ajax_url":"https:\/\/mindcircuit.in\/wp-admin\/admin-ajax.php","invalid_required":"This is a required field","invalid_postcode":"Zipcode must be digits","invalid_phonenum":"Enter a valid phone number","invalid_emailadd":"Enter a valid email address"};
+</script>
+<script src="https://mindcircuit.in/wp-content/plugins/auxin-portfolio/public/assets/js/portfolio.js?ver=2.3.2" id="auxin-portfolio-portfolio-js"></script>
+<script id="auxin-news-main-js-extra">
+var auxnew = {"ajax_url":"https:\/\/mindcircuit.in\/wp-admin\/admin-ajax.php"};
+</script>
+<script src="https://mindcircuit.in/wp-content/plugins/auxin-the-news/public/assets/js/news.js?ver=1.6.5" id="auxin-news-main-js"></script>
+<script id="chaty-front-end-js-extra">
+var chaty_settings = {"ajax_url":"https:\/\/mindcircuit.in\/wp-admin\/admin-ajax.php","analytics":"0","capture_analytics":"0","token":"ddcd934705","lang":{"whatsapp_label":"WhatsApp Message","hide_whatsapp_form":"Hide WhatsApp Form"},"chaty_widgets":[{"id":0,"identifier":0,"settings":{"cta_type":"simple-view","cta_body":"","cta_head":"","cta_head_bg_color":"","cta_head_text_color":"","show_close_button":1,"position":"right","custom_position":1,"bottom_spacing":"25","side_spacing":"25","icon_view":"vertical","default_state":"click","cta_text":"Contact us","cta_text_color":"#333333","cta_bg_color":"#ffffff","show_cta":"first_click","is_pending_mesg_enabled":"off","pending_mesg_count":"1","pending_mesg_count_color":"#ffffff","pending_mesg_count_bgcolor":"#dd0000","widget_icon":"chat-base","widget_icon_url":"","font_family":"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif","widget_size":"54","custom_widget_size":"54","is_google_analytics_enabled":0,"close_text":"Hide","widget_color":"#A886CD","widget_rgb_color":"168,134,205","has_custom_css":0,"custom_css":"","widget_token":"44e8a688b9","widget_index":"","attention_effect":""},"triggers":{"has_time_delay":1,"time_delay":"0","exit_intent":0,"has_display_after_page_scroll":0,"display_after_page_scroll":"0","auto_hide_widget":0,"hide_after":0,"show_on_pages_rules":[],"time_diff":0,"has_date_scheduling_rules":0,"date_scheduling_rules":{"start_date_time":"","end_date_time":""},"date_scheduling_rules_timezone":0,"day_hours_scheduling_rules_timezone":0,"has_day_hours_scheduling_rules":[],"day_hours_scheduling_rules":[],"day_time_diff":0,"show_on_direct_visit":0,"show_on_referrer_social_network":0,"show_on_referrer_search_engines":0,"show_on_referrer_google_ads":0,"show_on_referrer_urls":[],"has_show_on_specific_referrer_urls":0,"has_traffic_source":0,"has_countries":0,"countries":[],"has_target_rules":0},"channels":[{"channel":"Phone","value":"+919160179396","hover_text":"Phone","svg_icon":"<svg width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><circle class=\"color-element\" cx=\"19.4395\" cy=\"19.4395\" r=\"19.4395\" fill=\"#03E78B\"\/><path d=\"M19.3929 14.9176C17.752 14.7684 16.2602 14.3209 14.7684 13.7242C14.0226 13.4259 13.1275 13.7242 12.8292 14.4701L11.7849 16.2602C8.65222 14.6193 6.11623 11.9341 4.47529 8.95057L6.41458 7.90634C7.16046 7.60799 7.45881 6.71293 7.16046 5.96705C6.56375 4.47529 6.11623 2.83435 5.96705 1.34259C5.96705 0.596704 5.22117 0 4.47529 0H0.745882C0.298353 0 5.69062e-07 0.298352 5.69062e-07 0.745881C5.69062e-07 3.72941 0.596704 6.71293 1.93929 9.3981C3.87858 13.575 7.30964 16.8569 11.3374 18.7962C14.0226 20.1388 17.0061 20.7355 19.9896 20.7355C20.4371 20.7355 20.7355 20.4371 20.7355 19.9896V16.4094C20.7355 15.5143 20.1388 14.9176 19.3929 14.9176Z\" transform=\"translate(9.07179 9.07178)\" fill=\"white\"\/><\/svg>","is_desktop":1,"is_mobile":1,"icon_color":"#03E78B","icon_rgb_color":"3,231,139","channel_type":"Phone","custom_image_url":"","order":"","pre_set_message":"","is_use_web_version":"1","is_open_new_tab":"1","is_default_open":"0","has_welcome_message":"0","chat_welcome_message":"","qr_code_image_url":"","mail_subject":"","channel_account_type":"personal","contact_form_settings":[],"contact_fields":[],"url":"tel:+919160179396","mobile_target":"","desktop_target":"","target":"","is_agent":0,"agent_data":[],"header_text":"","header_sub_text":"","header_bg_color":"","header_text_color":"","widget_token":"44e8a688b9","widget_index":"","click_event":""},{"channel":"Whatsapp","value":"919160179396","hover_text":"WhatsApp","svg_icon":"<svg width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><circle class=\"color-element\" cx=\"19.4395\" cy=\"19.4395\" r=\"19.4395\" fill=\"#49E670\"\/><path d=\"M12.9821 10.1115C12.7029 10.7767 11.5862 11.442 10.7486 11.575C10.1902 11.7081 9.35269 11.8411 6.84003 10.7767C3.48981 9.44628 1.39593 6.25317 1.25634 6.12012C1.11674 5.85403 2.13001e-06 4.39053 2.13001e-06 2.92702C2.13001e-06 1.46351 0.83755 0.665231 1.11673 0.399139C1.39592 0.133046 1.8147 1.01506e-06 2.23348 1.01506e-06C2.37307 1.01506e-06 2.51267 1.01506e-06 2.65226 1.01506e-06C2.93144 1.01506e-06 3.21063 -2.02219e-06 3.35022 0.532183C3.62941 1.19741 4.32736 2.66092 4.32736 2.79397C4.46696 2.92702 4.46696 3.19311 4.32736 3.32616C4.18777 3.59225 4.18777 3.59224 3.90858 3.85834C3.76899 3.99138 3.6294 4.12443 3.48981 4.39052C3.35022 4.52357 3.21063 4.78966 3.35022 5.05576C3.48981 5.32185 4.18777 6.38622 5.16491 7.18449C6.42125 8.24886 7.39839 8.51496 7.81717 8.78105C8.09636 8.91409 8.37554 8.9141 8.65472 8.648C8.93391 8.38191 9.21309 7.98277 9.49228 7.58363C9.77146 7.31754 10.0507 7.1845 10.3298 7.31754C10.609 7.45059 12.2841 8.11582 12.5633 8.38191C12.8425 8.51496 13.1217 8.648 13.1217 8.78105C13.1217 8.78105 13.1217 9.44628 12.9821 10.1115Z\" transform=\"translate(12.9597 12.9597)\" fill=\"#FAFAFA\"\/><path d=\"M0.196998 23.295L0.131434 23.4862L0.323216 23.4223L5.52771 21.6875C7.4273 22.8471 9.47325 23.4274 11.6637 23.4274C18.134 23.4274 23.4274 18.134 23.4274 11.6637C23.4274 5.19344 18.134 -0.1 11.6637 -0.1C5.19344 -0.1 -0.1 5.19344 -0.1 11.6637C-0.1 13.9996 0.624492 16.3352 1.93021 18.2398L0.196998 23.295ZM5.87658 19.8847L5.84025 19.8665L5.80154 19.8788L2.78138 20.8398L3.73978 17.9646L3.75932 17.906L3.71562 17.8623L3.43104 17.5777C2.27704 15.8437 1.55796 13.8245 1.55796 11.6637C1.55796 6.03288 6.03288 1.55796 11.6637 1.55796C17.2945 1.55796 21.7695 6.03288 21.7695 11.6637C21.7695 17.2945 17.2945 21.7695 11.6637 21.7695C9.64222 21.7695 7.76778 21.1921 6.18227 20.039L6.17557 20.0342L6.16817 20.0305L5.87658 19.8847Z\" transform=\"translate(7.7758 7.77582)\" fill=\"white\" stroke=\"white\" stroke-width=\"0.2\"\/><\/svg>","is_desktop":1,"is_mobile":1,"icon_color":"#49E670","icon_rgb_color":"73,230,112","channel_type":"Whatsapp","custom_image_url":"","order":"","pre_set_message":"","is_use_web_version":"1","is_open_new_tab":"1","is_default_open":"0","has_welcome_message":"0","chat_welcome_message":"<p>How can I help you? :)<\/p>","qr_code_image_url":"","mail_subject":"","channel_account_type":"personal","contact_form_settings":[],"contact_fields":[],"url":"https:\/\/web.whatsapp.com\/send?phone=919160179396","mobile_target":"","desktop_target":"_blank","target":"_blank","is_agent":0,"agent_data":[],"header_text":"","header_sub_text":"","header_bg_color":"","header_text_color":"","widget_token":"44e8a688b9","widget_index":"","click_event":""},{"channel":"Email","value":"info@mindcircuit.in","hover_text":"Email","svg_icon":"<svg width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><circle class=\"color-element\" cx=\"19.4395\" cy=\"19.4395\" r=\"19.4395\" fill=\"#FF485F\"\/><path d=\"M20.5379 14.2557H1.36919C0.547677 14.2557 0 13.7373 0 12.9597V1.29597C0 0.518387 0.547677 0 1.36919 0H20.5379C21.3594 0 21.9071 0.518387 21.9071 1.29597V12.9597C21.9071 13.7373 21.3594 14.2557 20.5379 14.2557ZM20.5379 12.9597V13.6077V12.9597ZM1.36919 1.29597V12.9597H20.5379V1.29597H1.36919Z\" transform=\"translate(8.48619 12.3117)\" fill=\"white\"\/><path d=\"M10.9659 8.43548C10.829 8.43548 10.692 8.43548 10.5551 8.30588L0.286184 1.17806C0.012346 0.918864 -0.124573 0.530073 0.149265 0.270879C0.423104 0.0116857 0.833862 -0.117911 1.1077 0.141283L10.9659 7.00991L20.8241 0.141283C21.0979 -0.117911 21.5087 0.0116857 21.7825 0.270879C22.0563 0.530073 21.9194 0.918864 21.6456 1.17806L11.3766 8.30588C11.2397 8.43548 11.1028 8.43548 10.9659 8.43548Z\" transform=\"translate(8.47443 12.9478)\" fill=\"white\"\/><path d=\"M9.0906 7.13951C8.95368 7.13951 8.81676 7.13951 8.67984 7.00991L0.327768 1.17806C-0.0829894 0.918864 -0.0829899 0.530073 0.190849 0.270879C0.327768 0.0116855 0.738525 -0.117911 1.14928 0.141282L9.50136 5.97314C9.7752 6.23233 9.91212 6.62112 9.63828 6.88032C9.50136 7.00991 9.36444 7.13951 9.0906 7.13951Z\" transform=\"translate(20.6183 18.7799)\" fill=\"white\"\/><path d=\"M0.696942 7.13951C0.423104 7.13951 0.286185 7.00991 0.149265 6.88032C-0.124573 6.62112 0.012346 6.23233 0.286185 5.97314L8.63826 0.141282C9.04902 -0.117911 9.45977 0.0116855 9.59669 0.270879C9.87053 0.530073 9.73361 0.918864 9.45977 1.17806L1.1077 7.00991C0.970781 7.13951 0.833862 7.13951 0.696942 7.13951Z\" transform=\"translate(8.47443 18.7799)\" fill=\"white\"\/><\/svg>","is_desktop":1,"is_mobile":1,"icon_color":"#FF485F","icon_rgb_color":"255,72,95","channel_type":"Email","custom_image_url":"","order":"","pre_set_message":"","is_use_web_version":"1","is_open_new_tab":"1","is_default_open":"0","has_welcome_message":"0","chat_welcome_message":"","qr_code_image_url":"","mail_subject":"","channel_account_type":"personal","contact_form_settings":[],"contact_fields":[],"url":"mailto:info@mindcircuit.in","mobile_target":"","desktop_target":"","target":"","is_agent":0,"agent_data":[],"header_text":"","header_sub_text":"","header_bg_color":"","header_text_color":"","widget_token":"44e8a688b9","widget_index":"","click_event":""}]}],"data_analytics_settings":"off"};
+</script>
+<script src="https://mindcircuit.in/wp-content/plugins/chaty/js/cht-front-script.min.js?ver=3.1.81703248426" id="chaty-front-end-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.8.4" id="swv-js"></script>
+<script id="contact-form-7-js-extra">
+var wpcf7 = {"api":{"root":"https:\/\/mindcircuit.in\/wp-json\/","namespace":"contact-form-7\/v1"}};
+</script>
+<script src="https://mindcircuit.in/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.8.4" id="contact-form-7-js"></script>
+<script id="wp_ulike-js-extra">
+var wp_ulike_params = {"ajax_url":"https:\/\/mindcircuit.in\/wp-admin\/admin-ajax.php","notifications":"1"};
+</script>
+<script src="https://mindcircuit.in/wp-content/plugins/wp-ulike/assets/js/wp-ulike.min.js?ver=4.6.9" id="wp_ulike-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=3.2.0" id="elementskit-framework-js-frontend-js"></script>
+<script id="elementskit-framework-js-frontend-js-after">
+		var elementskit = {
+			resturl: 'https://mindcircuit.in/wp-json/elementskit/v1/',
+		}
+
+		
+</script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js?ver=3.2.0" id="ekit-widget-scripts-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementskit/modules/parallax/assets/js/anime.js?ver=3.6.1" id="animejs-js"></script>
+<script defer src="https://mindcircuit.in/wp-content/plugins/elementskit/modules/parallax/assets/js/parallax-frontend-scripts.js?ver=3.6.1" id="elementskit-parallax-frontend-defer-js"></script>
+<script src="https://mindcircuit.in/wp-content/uploads/phlox-pro/custom.js?ver=9.5" id="auxin-custom-js-js"></script>
+<script id="bdt-uikit-js-extra">
+var element_pack_ajax_login_config = {"ajaxurl":"https:\/\/mindcircuit.in\/wp-admin\/admin-ajax.php","language":"en","loadingmessage":"Sending user info, please wait...","unknownerror":"Unknown error, make sure access is correct!"};
+var ElementPackConfig = {"ajaxurl":"https:\/\/mindcircuit.in\/wp-admin\/admin-ajax.php","nonce":"e0010970d3","data_table":{"language":{"lengthMenu":"_MENU_ Entries","info":"_START_ to _END_ of _TOTAL_ entries","search":"Search :","sZeroRecords":"No matching records found","paginate":{"previous":"Previous","next":"Next"}}},"contact_form":{"sending_msg":"Sending message please wait...","captcha_nd":"Invisible captcha not defined!","captcha_nr":"Could not get invisible captcha response!"},"mailchimp":{"subscribing":"Subscribing you please wait..."},"search":{"more_result":"More Results","search_result":"SEARCH RESULT","not_found":"not found"},"elements_data":{"sections":[],"columns":[],"widgets":[]}};
+</script>
+<script src="https://mindcircuit.in/wp-content/plugins/bdthemes-element-pack/assets/js/bdt-uikit.min.js?ver=3.16.24" id="bdt-uikit-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.18.2" id="elementor-webpack-runtime-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.18.2" id="elementor-frontend-modules-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script src="https://mindcircuit.in/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.18.2","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"additional_custom_breakpoints":true,"block_editor_assets_optimize":true,"landing-pages":true,"e_image_loading_optimization":true,"e_global_styleguide":true},"urls":{"assets":"https:\/\/mindcircuit.in\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":107,"title":"Mind%20Circuit%20%E2%80%93%20Your%20Gateway%20to%20Excellence%20in%20DevOps%20Training%21","excerpt":"","featuredImage":false}};
+</script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.18.2" id="elementor-frontend-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/bdthemes-element-pack/assets/js/modules/ep-accordion.min.js?ver=7.4.0" id="ep-accordion-js"></script>
+<script defer src="https://mindcircuit.in/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.9.10" id="mc4wp-forms-api-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/bdthemes-element-pack/assets/js/common/helper.min.js?ver=7.4.0" id="element-pack-helper-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js?ver=3.2.0" id="animate-circle-js"></script>
+<script id="elementskit-elementor-js-extra">
+var ekit_config = {"ajaxurl":"https:\/\/mindcircuit.in\/wp-admin\/admin-ajax.php","nonce":"eb0eac74e2"};
+</script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=3.2.0" id="elementskit-elementor-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementskit/widgets/init/assets/js/elementor.js?ver=3.6.1" id="elementskit-elementor-pro-js"></script>
+<script defer src="https://mindcircuit.in/wp-content/plugins/elementskit/modules/sticky-content/assets/js/elementskit-sticky-content.js?ver=3.6.1" id="elementskit-sticky-content-script-init-defer-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementskit/modules/particles/assets/js/particles.min.js?ver=3.6.1" id="particles-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementskit/modules/particles/assets/js/ekit-particles.js?ver=3.6.1" id="ekit-particles-js"></script>
+<script defer src="https://mindcircuit.in/wp-content/plugins/elementskit/modules/parallax/assets/js/parallax-admin-scripts.js?ver=3.6.1" id="elementskit-parallax-admin-defer-js"></script>
+<script src="https://mindcircuit.in/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script id="wp-util-js-extra">
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+</script>
+<script src="https://mindcircuit.in/wp-includes/js/wp-util.min.js?ver=6.5.5" id="wp-util-js"></script>
+<script id="wpforms-elementor-js-extra">
+var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"};
+</script>
+<script src="https://mindcircuit.in/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.5.2" id="wpforms-elementor-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementskit/modules/wrapper-link/assets/js/wrapper.js?ver=3.6.1" id="elementskit-wrapper-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementskit/modules/mouse-cursor/assets/js/cotton.min.js?ver=3.6.1" id="cotton-js"></script>
+<script src="https://mindcircuit.in/wp-content/plugins/elementskit/modules/mouse-cursor/assets/js/mouse-cursor-scripts.js?ver=3.6.1" id="mouse-cursor-js"></script>
+<!-- end wp_footer -->
+</body>
+</html>
+
+<!--Generated by Endurance Page Cache-->
