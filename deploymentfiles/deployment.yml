@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: fbcont
-          image: mohammadkarishma517/karishma-batch14:pythonapp
+          image: mohammadkarishma517/karishma-batch14:5
 
           ports:
             - containerPort: 8080
